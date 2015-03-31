@@ -604,10 +604,27 @@ math, .show-menu, .slider-mobile-description, .page .slider-description span,
     background: #f7f7f7;
     margin:0 auto;
     padding:30px;
-    width:600px;
+    width:80%;
     position: absolute;
     top:10%;
     left:10%;
+    overflow-wrap: break-word; 
+}
+
+.panel-left {
+    background: #f7f7f7;
+    margin:0 auto;
+    padding:30px;
+    width:40%;
+    position: absolute;
+    top:0;
+    left:0;
+    overflow-wrap: break-word; 
+}
+.panel .contact-info .fa-large {
+    font-size: 20px;
+    color:#bbb;
+    margin-bottom:15px;
 }
 
 .animated { 

@@ -24,7 +24,7 @@ jQuery(function($) {
     });
     
     //Nicescroll
-    setNicescroll($);
+    //setNicescroll($);
     
     //Prallax
     if ( $('body').hasClass('single-realizacje') ) {
@@ -161,27 +161,27 @@ var workContentTop = function($) {
     });
 };
 
-var setNicescroll = function($) {
-    $('.nicescroll').niceScroll({
-        zindex: 999,
-        autohidemode: false,
-        cursorcolor: 'rgba(128,128,128,0.6)',
-        cursorborder: 0,
-        cursorborderradius: 0,
-        cursorwidth: 7
-    });
+// var setNicescroll = function($) {
+//     $('.nicescroll').niceScroll({
+//         zindex: 999,
+//         autohidemode: false,
+//         cursorcolor: 'rgba(128,128,128,0.6)',
+//         cursorborder: 0,
+//         cursorborderradius: 0,
+//         cursorwidth: 7
+//     });
     
-    $('.single-realizacje').niceScroll({
-        zindex: 999,
-        autohidemode: false,
-        cursorcolor: 'rgba(128,128,128,0.6)',
-        cursorborder: 0,
-        cursorborderradius: 0,
-        cursorwidth: 7
-    });
+//     $('.single-realizacje').niceScroll({
+//         zindex: 999,
+//         autohidemode: false,
+//         cursorcolor: 'rgba(128,128,128,0.6)',
+//         cursorborder: 0,
+//         cursorborderradius: 0,
+//         cursorwidth: 7
+//     });
     
-    $('.nicescroll-rails').append('<div class="rails-background"></div>');
-};
+//     $('.nicescroll-rails').append('<div class="rails-background"></div>');
+// };
 
 var show_member = function(member) {
     var $ = jQuery.noConflict();
