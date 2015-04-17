@@ -549,9 +549,10 @@ math, .show-menu, .slider-mobile-description, .page .slider-description span,
     background-position: center center;
 }
 .wrapper {
-    height: 100%;
+   position: absolute;
     width: 100%;
     background: rgba(0,0,0,0.2);
+    top:0;
 }
 .epic-text {
     height:120px;
