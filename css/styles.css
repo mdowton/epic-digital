@@ -540,8 +540,7 @@ math, .show-menu, .slider-mobile-description, .page .slider-description span,
     bottom: 0;
     right: 0;
     left: 25%;
-    overflow-x: hidden;
-    overflow-y: scroll;
+    overflow: hidden;
     padding: 0;
     margin: 0;
     background: url('/images/agency.jpg')no-repeat;
@@ -621,6 +620,21 @@ math, .show-menu, .slider-mobile-description, .page .slider-description span,
     top:0;
     left:0;
     overflow-wrap: break-word; 
+    height:1300px;
+    overflow: scroll;
+}
+.panel-right {
+    background: #fff;
+    margin:0 auto;
+    padding:30px;
+    width:60%;
+    position: absolute;
+    top:0;
+    right:0;
+    height:100%;
+    overflow-wrap: break-word; 
+    height:1300px;
+    overflow: hidden;
 }
 .panel .contact-info .fa-large {
     font-size: 20px;
@@ -961,8 +975,9 @@ math, .show-menu, .slider-mobile-description, .page .slider-description span,
     height: auto;
     width: auto;
 }
+.page-cover { height:1300px;}
 
-.content, .page-cover, .text-content, .map { height: 100%; }
+.content, .text-content, .map { height: 100%; }
 
 .text-content { 
     background: #f7f7f7;
@@ -1124,14 +1139,14 @@ math, .show-menu, .slider-mobile-description, .page .slider-description span,
 }
 
 .page-cover { 
-    position: relative; 
+    position: absolute; 
     background: #000000; 
 }
 
 .page-cover .cover {
     position: absolute;
     background-size: cover;
-    background-position: center top;
+    background-position: center center;
     position: absolute;
     top: 0;
     left: 0;
@@ -1153,7 +1168,7 @@ math, .show-menu, .slider-mobile-description, .page .slider-description span,
     width: 100%;
     height: 100%;
     background-size: cover;
-    background-position: right center;
+    background-position: center center;
     z-index: 997;
     opacity: 0;
     -webkit-transition: opacity 1s ease;
@@ -1522,7 +1537,7 @@ math, .show-menu, .slider-mobile-description, .page .slider-description span,
     }
     
     .page-cover, .map { 
-        height: 305px; 
+        height: 100%; 
         position: absolute;
         right: 0;
         width: 75%;
@@ -1750,9 +1765,9 @@ math, .show-menu, .slider-mobile-description, .page .slider-description span,
     
     .page-cover, .map {
         width: 100%;
-        height: 510px;
-        position: absolute;
-        top: 124px;
+        height:100%;
+        position: relative;
+        top: 0;
     }
     
     .text-content #top-content, .text-content #bottom-content { 
