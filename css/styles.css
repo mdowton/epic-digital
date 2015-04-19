@@ -552,6 +552,8 @@ math, .show-menu, .slider-mobile-description, .page .slider-description span,
     width: 100%;
     background: rgba(0,0,0,0.2);
     top:0;
+    height: 100%;
+    overflow: auto;
 }
 .epic-text {
     height:120px;
@@ -1158,6 +1160,11 @@ math, .show-menu, .slider-mobile-description, .page .slider-description span,
     -moz-transition: opacity 1s ease;
     transition: opacity 1s ease;
 }
+.bio-button {
+    position: relative;
+    bottom: 30px;
+    float: right;
+}
 
 .page-cover .cover.inactive-cover { opacity: 0; }
 
@@ -1220,10 +1227,11 @@ math, .show-menu, .slider-mobile-description, .page .slider-description span,
 }
 
 .contact-info p {
-    font-size: 21px;
+    font-size: 18px;
     line-height: 24px;
     color: #555555;
     font-weight: 300;
+    margin:10px 0;
 }
 
 .social a {
@@ -1540,7 +1548,7 @@ math, .show-menu, .slider-mobile-description, .page .slider-description span,
         height: 100%; 
         position: absolute;
         right: 0;
-        width: 75%;
+        width: 60%;
     }
     
     .page-cover .cover { background-position: center -130px; }
@@ -1560,8 +1568,8 @@ math, .show-menu, .slider-mobile-description, .page .slider-description span,
         padding-top: 50px !important;
     }
     
-    .page-cover .cover { opacity: 1 !important; }
-    .page-cover .member-image { opacity: 0 !important; }
+   /* .page-cover .cover { opacity: 1 !important; }
+    .page-cover .member-image { opacity: 0 !important; }*/
     .contact-description { position: static; }
    
 	.work { padding: 30px !important; }
