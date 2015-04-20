@@ -18,7 +18,7 @@ $( document ).ready(function() {
         jQuery('body').on('click', '.member-image', function() {
         	var href = jQuery(this).attr('href');
         	
-        	setTimeout(myEl, 500);
+        	//setTimeout(myEl, 500);
 
 		         
 
