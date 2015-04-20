@@ -550,7 +550,7 @@ math, .show-menu, .slider-mobile-description, .page .slider-description span,
 .wrapper {
    position: absolute;
     width: 100%;
-    background: rgba(0,0,0,0.4);
+    background: rgba(0,0,0,0.6);
     top:0;
     height: 100%;
     overflow: auto;
@@ -563,10 +563,8 @@ math, .show-menu, .slider-mobile-description, .page .slider-description span,
 .main-call{
     color: #000;
     position: absolute;
-    top: 50%;
-    margin-top: -130px;
+    top:50%;
     left: 50%;
-    margin-left: -281px;
     width:70%;
 }
 
@@ -577,7 +575,6 @@ math, .show-menu, .slider-mobile-description, .page .slider-description span,
     color: #fff;
     font-weight: 100;
     display:block;
-    margin-top:20px;
 }
 
 .main-call .container-text span {

@@ -16,9 +16,9 @@ var PageTransitions = (function() {
             'OAnimation' : 'oAnimationEnd',
             'msAnimation' : 'MSAnimationEnd',
             'animation' : 'animationend'
-	},
-	animEndEventName = animEndEventNames[ Modernizr.prefixed( 'animation' ) ],
-        support = Modernizr.cssanimations;
+	};
+	// animEndEventName = animEndEventNames[ Modernizr.prefixed( 'animation' ) ],
+ //        support = Modernizr.cssanimations;
 	
 	function init() {
                 $pages.each( function() {
