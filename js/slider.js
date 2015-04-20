@@ -87,11 +87,11 @@ var PageTransitions = (function() {
 
             $currPage.addClass( outClass ).on( animEndEventName, function() {
                 $currPage.off( animEndEventName );
-		endCurrPage = true;
-                if( endNextPage ) {
-                    onEndAnimation( $currPage, $nextPage );
-		}
-            } );
+		          endCurrPage = true;
+                    if( endNextPage ) {
+                        onEndAnimation( $currPage, $nextPage );
+		              }
+                });
 
             $nextPage.addClass( inClass ).on( animEndEventName, function() {
                 $nextPage.off( animEndEventName );
