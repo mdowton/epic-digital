@@ -753,7 +753,7 @@ math, .show-menu, .slider-mobile-description, .page .slider-description span,
 }
 
 #map-canvas {
-    height: 100px;
+    height: 300px;
 }
 
 .work:hover .client-logo, .work:hover .tags { opacity: 1; }
