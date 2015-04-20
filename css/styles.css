@@ -753,7 +753,7 @@ math, .show-menu, .slider-mobile-description, .page .slider-description span,
 }
 
 #map-canvas {
-    height: 300px;
+    height: 100px;
 }
 
 .work:hover .client-logo, .work:hover .tags { opacity: 1; }
@@ -1465,6 +1465,18 @@ math, .show-menu, .slider-mobile-description, .page .slider-description span,
     color: #555555;
 }
 
+@media (max-width: 568px) {
+    .contact-description h3 {
+        font-size: 16px;
+    }
+    .panel-left {
+        width:100%;
+    }
+    .page-cover {
+        display: none !important;
+    }
+}
+
 @media ( max-width: 570px ) {
     .main-call {
       color: #000;
@@ -1769,10 +1781,10 @@ math, .show-menu, .slider-mobile-description, .page .slider-description span,
     }
     
     .page-cover, .map {
-        width: 100%;
+        /*width: 100%;
         height:100%;
         position: relative;
-        top: 0;
+        top: 0;*/
     }
     
     .text-content #top-content, .text-content #bottom-content { 
@@ -1824,14 +1836,14 @@ math, .show-menu, .slider-mobile-description, .page .slider-description span,
         bottom: 0 !important;
     }
     
-    .contact-description h3 { font-size: 20px; }
+   
     
     .contact-info {
         margin: 20px 0 0 0;
         padding: 25px 0 0 0;
     }
     
-    .contact-info p { font-size: 18px; }
+    .contact-info p { font-size: 16px; }
     
     .left-contact-info {
         float: left;
@@ -1926,10 +1938,10 @@ math, .show-menu, .slider-mobile-description, .page .slider-description span,
     .description, #members-description .member { padding: 25px 0 0 0; }
     
     .page-cover {
-        float: left;
+        /*float: left;
         width: 100%;
         height: 250px;
-        background-position: center bottom;
+        background-position: center bottom;*/
     }
     
     .page-cover .cover { background-position: center top; }
@@ -2052,10 +2064,7 @@ math, .show-menu, .slider-mobile-description, .page .slider-description span,
         top: 20px;
     }
     
-    .page-cover, .map { 
-        top: 104px;
-        height: 250px;
-    }
+    
 }
 
 @media all and (max-width: 767px) and (orientation:landscape) {
