@@ -10,6 +10,7 @@
 body, html {
     height: 100%;
     width: 100%;
+    
 }
 
 a, p, h1, h2, h3, h4, h5, h6, ul, li, span { font-family: 'proxima-nova', Helvetica, Arial; }
@@ -555,9 +556,65 @@ math, .show-menu, .slider-mobile-description, .page .slider-description span,
     height: 100%;
     overflow: auto;
 }
+
+.rsDefault .rsBullets {
+    background: transparent;
+    bottom: 10px;
+    line-height: 12px;
+    background: transparent;
+    bottom: 10px;
+    line-height: 12px;
+}
+
+.nicescroll {
+    height:100%;
+}
+.text-front {
+    position: absolute;
+}
 .epic-text {
-    height:120px;
+    height:80px;
     text-align: center;
+    padding-right:50px;
+}
+.main-call-home{
+    color: #000;
+    position: absolute;
+    top:50%;
+    left: 5%;
+}
+
+.main-call-home .container-text {
+    text-align: center;
+    font-size: 18px;
+    line-height: 24px;
+    color: #fff;
+    font-weight: 100;
+    display:block;
+}
+
+.main-call-home .container-text span {
+    display: block;
+    text-transform: uppercase;
+}
+.main-call-home .container-text .btn-default{
+    color: #fff;
+    background-color: transparent;
+    border: 2px solid #FFF;
+    width: 220px;
+    height: 50px;
+    margin-top: 50px;
+    text-transform: uppercase;
+}
+
+
+.main-call-home h2 {
+    letter-spacing: 30px;
+    text-transform: uppercase;
+}
+.main-call-home .epic-flower{
+    height: 80px;
+    width:80px;
 }
 
 .main-call{
@@ -1478,6 +1535,11 @@ math, .show-menu, .slider-mobile-description, .page .slider-description span,
 }
 
 @media ( max-width: 570px ) {
+    body   {
+        overflow: scroll;
+    }
+
+
     .main-call {
       color: #000;
       position: absolute;
@@ -1488,6 +1550,32 @@ math, .show-menu, .slider-mobile-description, .page .slider-description span,
   }
   .main-call img {
     margin-bottom: 10px;
+  }
+
+  .main-call-home .epic-flower {
+    display: none;
+  }
+
+  .main-call-home .epic-text {
+    display: none;
+  }
+
+  .main-call-home .container-text p {
+    font-size: 12px;
+  }
+   .main-call-home {
+      color: #000;
+      position: absolute;
+      width: 100%;
+  }
+  .main-call-home img {
+    margin-bottom: 10px;
+  }
+  .nicescroll {
+    width:100%;
+  }
+  .text-front {
+    position: relative;
   }
 }
 @media ( max-width: 1440px ) {

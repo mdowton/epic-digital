@@ -10,10 +10,15 @@
         <title>Epic Digital specialising in Web design & Web development, User experinece and Cloud hosted solutions</title>
 
       
-    		<link rel='stylesheet' id='default-css'  href='/css/styles.css' type='text/css' media='all' />
+    		
         <link rel='stylesheet' id='bootstrap-css'  href='/css/bootstrap.min.css' type='text/css' media='all' />
         <link rel='stylesheet' id='animations-css'  href='/css/animations.css' type='text/css' media='all' />
         <link rel='stylesheet' id='font-awesome-css'  href='/css/font-awesome.css' type='text/css' media='all' />
+        <link rel="stylesheet" href="royalslider/royalslider.css">
+        <link rel="stylesheet" href="royalslider/skins/default/rs-default.css"> 
+
+        <link rel='stylesheet' id='default-css'  href='/css/styles.css' type='text/css' media='all' />
+
     </head>
     <body class="page page-id-112 page-template page-template-page-works page-template-page-works-php">
         <div id="menu" class="col col-xs-3">
@@ -211,24 +216,31 @@
             </div>
         </div>
       
-              <div id="works" class="nicescroll">
-                <div class="wrapper">
-                  <div id="animated-example" class="animated fadeInUp main-call">
-                    <div class="container-text">
-                        <img src="./images/epic-flower.svg" alt"logo" class="epic-flower">
-                        <img src="./images/epic-text.svg" alt"epic" class="epic-text">
-                        <p>
-                          <br/>
-                          <span>SPECIALISING IN WEB DEVELOPMENT & DESIGN,</span>
-                          <span>USER EXPERIENCE & CLOUD HOSTED SOLUTIONS</span>
-                          <span><i>KEEPING OUR EYES ON THE FUTURE</i></span>
-                        </p>
-                        <p>
-                          <a href="/about-us.html" class="btn btn-default">explore</a>
-                        </p> 
-                    </div>
+              <div id="" class="nicescroll col col-xs-9">
+                  <div class="royalSlider rsDefault">
+                    <img src="./images/Med_manage.jpg" alt"epic" class="epic-text">
+                    <img src="./images/db_manage.png" alt"epic" class="epic-text">
+                    <img src="./images/falls_monitor.png" alt"epic" class="epic-text">
                   </div>
+                  <div class="text-front" style="width: 100%; background: rgba(0,0,0,0.6);overflow: auto; height:100%">
+                    <div id="animated-example" class="animated fadeInUp main-call-home" style="top:6%; ">
+                      <div class="container-text" style="text-align:left;">
+                          <img src="./images/epic-flower.svg" alt"logo" class="epic-flower">
+                          <img src="./images/epic-text.svg" alt"epic" class="epic-text">
+                          <p style="float:right; margin-left:25px;">
+                            <span>Innovative technology solutions</span>
+                            <span>connecting health professionals with each other and their patients;</span>
+                            <span>facilitating workflows and improving outcomes</span>
+                             <a href="/about-us.html" class="btn btn-default" style="margin-top:20px;">explore</a>
+                          </p>
+                      </div>
+                    </div>
                 </div>
+              </div>
+
+                
+
+               
 
                 <script type='text/javascript' src='/js/jquery.js'></script>
                 <script type='text/javascript' src='/js/mainEpic.js'></script>
@@ -237,6 +249,34 @@
                 <script type='text/javascript' src='/js/bootstrap.min.js'></script>
                 <script type='text/javascript' src='/js/jquery-migrate.js'></script>
                 <script type='text/javascript' src='/js/slider.js'></script>
+                <script src='royalslider/jquery-1.8.3.min.js'></script>
+                <!-- Main slider JS script file --> 
+                <!-- Create it with slider online build tool for better performance. -->
+                <script src="royalslider/jquery.royalslider.min.js"></script>
                 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+
+                <script>
+                  $(document).ready(function($) {
+                      $(".royalSlider").royalSlider({
+                          arrowsNav: true,
+                          loop: true,
+                          keyboardNavEnabled: true,
+                          controlsInside: true,
+                          imageScaleMode: 'fit',
+                          arrowsNavAutoHide: false,
+                          autoScaleSlider: true,
+                          controlNavigation: 'bullets',
+                          thumbsFitInViewport: false,
+                          startSlideId: 0,
+                          autoPlay: true,
+                          transitionType:'move',
+                          globalCaption: false,
+                          deeplinking: {
+                            enabled: true,
+                            change: false
+                          }
+                      });  
+                  });
+                </script>
     </body>
 </html>
