@@ -1,0 +1,2399 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   'grunt-bake',
+1 verbose cli   '--save-dev' ]
+2 info using npm@2.11.1
+3 info using node@v0.12.0
+4 verbose node symlink /usr/local/bin/node
+5 verbose install initial load of /Users/markdo/Desktop/Projects/package.json
+6 verbose installManyTop reading scoped package data from /Users/markdo/Desktop/Projects/node_modules/gulp/package.json
+7 verbose installManyTop reading scoped package data from /Users/markdo/Desktop/Projects/node_modules/gulp-nunjucks-render/package.json
+8 verbose installManyTop reading scoped package data from /Users/markdo/Desktop/Projects/node_modules/handlebars/package.json
+9 verbose installManyTop reading scoped package data from /Users/markdo/Desktop/Projects/node_modules/json-diff/package.json
+10 verbose installManyTop reading scoped package data from /Users/markdo/Desktop/Projects/node_modules/jsondiffpatch/package.json
+11 info package.json json-diff@0.3.1 No license field.
+12 verbose readDependencies loading dependencies from /Users/markdo/Desktop/Projects/package.json
+13 silly cache add args [ 'grunt-bake', null ]
+14 verbose cache add spec grunt-bake
+15 silly cache add parsed spec { raw: 'grunt-bake',
+15 silly cache add   scope: null,
+15 silly cache add   name: 'grunt-bake',
+15 silly cache add   rawSpec: '',
+15 silly cache add   spec: '*',
+15 silly cache add   type: 'range' }
+16 silly addNamed grunt-bake@*
+17 verbose addNamed "*" is a valid semver range for grunt-bake
+18 silly addNameRange { name: 'grunt-bake', range: '*', hasData: false }
+19 silly mapToRegistry name grunt-bake
+20 silly mapToRegistry using default registry
+21 silly mapToRegistry registry https://registry.npmjs.org/
+22 silly mapToRegistry uri https://registry.npmjs.org/grunt-bake
+23 verbose addNameRange registry:https://registry.npmjs.org/grunt-bake not in flight; fetching
+24 verbose request uri https://registry.npmjs.org/grunt-bake
+25 verbose request no auth needed
+26 info attempt registry request try #1 at 14:44:46
+27 verbose request id ce28280ae7ff4a61
+28 http request GET https://registry.npmjs.org/grunt-bake
+29 http 200 https://registry.npmjs.org/grunt-bake
+30 silly get cb [ 200,
+30 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+30 silly get     etag: '"CM59T6NNJ6THHUD8KTI33Y39K"',
+30 silly get     'content-type': 'application/json',
+30 silly get     'content-encoding': 'gzip',
+30 silly get     'cache-control': 'max-age=300',
+30 silly get     'content-length': '13318',
+30 silly get     'accept-ranges': 'bytes',
+30 silly get     date: 'Thu, 05 May 2016 04:44:47 GMT',
+30 silly get     via: '1.1 varnish',
+30 silly get     age: '0',
+30 silly get     connection: 'keep-alive',
+30 silly get     'x-served-by': 'cache-syd1622-SYD',
+30 silly get     'x-cache': 'MISS',
+30 silly get     'x-cache-hits': '0',
+30 silly get     'x-timer': 'S1462423486.693475,VS0,VE919',
+30 silly get     vary: 'Accept-Encoding' } ]
+31 verbose get saving grunt-bake to /Users/markdo/.npm/registry.npmjs.org/grunt-bake/.cache.json
+32 silly addNameRange number 2 { name: 'grunt-bake', range: '*', hasData: true }
+33 silly addNameRange versions [ 'grunt-bake',
+33 silly addNameRange   [ '0.0.1',
+33 silly addNameRange     '0.0.2',
+33 silly addNameRange     '0.0.3',
+33 silly addNameRange     '0.0.4',
+33 silly addNameRange     '0.0.5',
+33 silly addNameRange     '0.0.6',
+33 silly addNameRange     '0.0.7',
+33 silly addNameRange     '0.0.8',
+33 silly addNameRange     '0.0.9',
+33 silly addNameRange     '0.0.10',
+33 silly addNameRange     '0.0.11',
+33 silly addNameRange     '0.1.0',
+33 silly addNameRange     '0.2.0',
+33 silly addNameRange     '0.2.1',
+33 silly addNameRange     '0.3.0',
+33 silly addNameRange     '0.3.1',
+33 silly addNameRange     '0.3.3',
+33 silly addNameRange     '0.3.5',
+33 silly addNameRange     '0.3.7',
+33 silly addNameRange     '0.3.8',
+33 silly addNameRange     '0.3.9',
+33 silly addNameRange     '0.3.10',
+33 silly addNameRange     '0.3.12',
+33 silly addNameRange     '0.3.13',
+33 silly addNameRange     '0.3.14',
+33 silly addNameRange     '0.3.15',
+33 silly addNameRange     '0.3.16',
+33 silly addNameRange     '0.3.17',
+33 silly addNameRange     '0.3.18',
+33 silly addNameRange     '1.0.0',
+33 silly addNameRange     '1.1.0',
+33 silly addNameRange     '1.1.1',
+33 silly addNameRange     '1.2.0',
+33 silly addNameRange     '1.2.1',
+33 silly addNameRange     '1.3.0',
+33 silly addNameRange     '1.3.1',
+33 silly addNameRange     '1.4.0',
+33 silly addNameRange     '1.4.1',
+33 silly addNameRange     '1.5.0',
+33 silly addNameRange     '1.5.1',
+33 silly addNameRange     '1.6.0',
+33 silly addNameRange     '1.6.1',
+33 silly addNameRange     '1.6.2',
+33 silly addNameRange     '1.6.3',
+33 silly addNameRange     '1.6.4',
+33 silly addNameRange     '1.7.0',
+33 silly addNameRange     '1.7.1',
+33 silly addNameRange     '1.7.2' ] ]
+34 silly addNamed grunt-bake@1.7.2
+35 verbose addNamed "1.7.2" is a plain semver version for grunt-bake
+36 silly mapToRegistry name grunt-bake
+37 silly mapToRegistry using default registry
+38 silly mapToRegistry registry https://registry.npmjs.org/
+39 silly mapToRegistry uri https://registry.npmjs.org/grunt-bake
+40 verbose addRemoteTarball https://registry.npmjs.org/grunt-bake/-/grunt-bake-1.7.2.tgz not in flight; adding
+41 verbose addRemoteTarball [ 'https://registry.npmjs.org/grunt-bake/-/grunt-bake-1.7.2.tgz',
+41 verbose addRemoteTarball   '7992fce270ccff4f20928a3a7b56bf6357781327' ]
+42 info retry fetch attempt 1 at 14:44:47
+43 info attempt registry request try #1 at 14:44:47
+44 http fetch GET https://registry.npmjs.org/grunt-bake/-/grunt-bake-1.7.2.tgz
+45 http fetch 200 https://registry.npmjs.org/grunt-bake/-/grunt-bake-1.7.2.tgz
+46 silly fetchAndShaCheck shasum 7992fce270ccff4f20928a3a7b56bf6357781327
+47 verbose addTmpTarball /var/folders/b1/ymp4xcl12vd8l_h061smnlkc0000gp/T/npm-75238-816b5ee4/registry.npmjs.org/grunt-bake/-/grunt-bake-1.7.2.tgz not in flight; adding
+48 verbose addTmpTarball already have metadata; skipping unpack for grunt-bake@1.7.2
+49 silly cache afterAdd grunt-bake@1.7.2
+50 verbose afterAdd /Users/markdo/.npm/grunt-bake/1.7.2/package/package.json not in flight; writing
+51 verbose afterAdd /Users/markdo/.npm/grunt-bake/1.7.2/package/package.json written
+52 silly install resolved [ { name: 'grunt-bake',
+52 silly install resolved     description: 'Bake external includes into files to create static pages with no server-side compilation time',
+52 silly install resolved     version: '1.7.2',
+52 silly install resolved     homepage: 'https://github.com/MathiasPaumgarten/grunt-bake',
+52 silly install resolved     author:
+52 silly install resolved      { name: 'Mathias Paumgarten',
+52 silly install resolved        email: 'mail@mathias-paumgarten.com',
+52 silly install resolved        url: 'http://mathias-paumgarten.com' },
+52 silly install resolved     contributors: [ [Object], [Object] ],
+52 silly install resolved     repository:
+52 silly install resolved      { type: 'git',
+52 silly install resolved        url: 'git+https://github.com/MathiasPaumgarten/grunt-bake.git' },
+52 silly install resolved     bugs: { url: 'https://github.com/MathiasPaumgarten/grunt-bake/issues' },
+52 silly install resolved     licenses: [ [Object] ],
+52 silly install resolved     main: 'Gruntfile.js',
+52 silly install resolved     engines: { node: '>= 0.10.0' },
+52 silly install resolved     scripts: { test: 'grunt test' },
+52 silly install resolved     dependencies: { mout: '~0.11.1' },
+52 silly install resolved     devDependencies:
+52 silly install resolved      { 'grunt-contrib-jshint': '~1.0.0',
+52 silly install resolved        'grunt-contrib-clean': '~1.0.0',
+52 silly install resolved        'grunt-contrib-nodeunit': '^0.4.1',
+52 silly install resolved        'grunt-contrib-watch': '~0.6.1',
+52 silly install resolved        'grunt-jsonlint': '~1.0.7',
+52 silly install resolved        grunt: '~0.4.5' },
+52 silly install resolved     peerDependencies: { grunt: '>=0.4.0' },
+52 silly install resolved     keywords:
+52 silly install resolved      [ 'gruntplugin',
+52 silly install resolved        'bake',
+52 silly install resolved        'static page',
+52 silly install resolved        'templates',
+52 silly install resolved        'static',
+52 silly install resolved        'include' ],
+52 silly install resolved     gitHead: '1a49a9e457467ac40b4a7b878848e9884a8d1ea8',
+52 silly install resolved     _id: 'grunt-bake@1.7.2',
+52 silly install resolved     _shasum: '7992fce270ccff4f20928a3a7b56bf6357781327',
+52 silly install resolved     _from: 'grunt-bake@*',
+52 silly install resolved     _npmVersion: '3.8.2',
+52 silly install resolved     _nodeVersion: '4.4.0',
+52 silly install resolved     _npmUser:
+52 silly install resolved      { name: 'mathias.paumgarten',
+52 silly install resolved        email: 'mail@mathias-paumgarten.com' },
+52 silly install resolved     dist:
+52 silly install resolved      { shasum: '7992fce270ccff4f20928a3a7b56bf6357781327',
+52 silly install resolved        tarball: 'https://registry.npmjs.org/grunt-bake/-/grunt-bake-1.7.2.tgz' },
+52 silly install resolved     maintainers: [ [Object] ],
+52 silly install resolved     _npmOperationalInternal:
+52 silly install resolved      { host: 'packages-16-east.internal.npmjs.com',
+52 silly install resolved        tmp: 'tmp/grunt-bake-1.7.2.tgz_1461197849873_0.5864517942536622' },
+52 silly install resolved     directories: {},
+52 silly install resolved     _resolved: 'https://registry.npmjs.org/grunt-bake/-/grunt-bake-1.7.2.tgz' } ]
+53 info install grunt-bake@1.7.2 into /Users/markdo/Desktop/Projects
+54 info installOne grunt-bake@1.7.2
+55 verbose installOne of grunt-bake to /Users/markdo/Desktop/Projects not in flight; installing
+56 verbose lock using /Users/markdo/.npm/_locks/grunt-bake-83b444ea1b74c7b3.lock for /Users/markdo/Desktop/Projects/node_modules/grunt-bake
+57 silly install write writing grunt-bake 1.7.2 to /Users/markdo/Desktop/Projects/node_modules/grunt-bake
+58 verbose unbuild node_modules/grunt-bake
+59 silly gentlyRm /Users/markdo/Desktop/Projects/node_modules/grunt-bake is being purged from base /Users/markdo/Desktop/Projects
+60 verbose gentlyRm don't care about contents; nuking /Users/markdo/Desktop/Projects/node_modules/grunt-bake
+61 verbose tar unpack /Users/markdo/.npm/grunt-bake/1.7.2/package.tgz
+62 verbose tar unpacking to /Users/markdo/Desktop/Projects/node_modules/grunt-bake
+63 silly gentlyRm /Users/markdo/Desktop/Projects/node_modules/grunt-bake is being purged
+64 verbose gentlyRm don't care about contents; nuking /Users/markdo/Desktop/Projects/node_modules/grunt-bake
+65 silly gunzTarPerm modes [ '755', '644' ]
+66 silly gunzTarPerm extractEntry package.json
+67 silly gunzTarPerm modified mode [ 'package.json', 416, 420 ]
+68 silly gunzTarPerm extractEntry .npmignore
+69 silly gunzTarPerm modified mode [ '.npmignore', 416, 420 ]
+70 silly gunzTarPerm extractEntry README.md
+71 silly gunzTarPerm modified mode [ 'README.md', 416, 420 ]
+72 silly gunzTarPerm extractEntry Gruntfile.js
+73 silly gunzTarPerm modified mode [ 'Gruntfile.js', 416, 420 ]
+74 silly gunzTarPerm extractEntry .jshintrc
+75 silly gunzTarPerm modified mode [ '.jshintrc', 416, 420 ]
+76 silly gunzTarPerm extractEntry .travis.yml
+77 silly gunzTarPerm modified mode [ '.travis.yml', 416, 420 ]
+78 silly gunzTarPerm extractEntry LICENSE-MIT
+79 silly gunzTarPerm modified mode [ 'LICENSE-MIT', 416, 420 ]
+80 silly gunzTarPerm extractEntry tasks/bake.js
+81 silly gunzTarPerm modified mode [ 'tasks/bake.js', 416, 420 ]
+82 silly gunzTarPerm extractEntry test/bake_test.js
+83 silly gunzTarPerm modified mode [ 'test/bake_test.js', 416, 420 ]
+84 silly gunzTarPerm extractEntry test/expected/inline_recursive_bake.html
+85 silly gunzTarPerm modified mode [ 'test/expected/inline_recursive_bake.html', 416, 420 ]
+86 silly gunzTarPerm extractEntry test/expected/advanced_bake.html
+87 silly gunzTarPerm modified mode [ 'test/expected/advanced_bake.html', 416, 420 ]
+88 silly gunzTarPerm extractEntry test/expected/advanced_bake_multi_two.html
+89 silly gunzTarPerm modified mode [ 'test/expected/advanced_bake_multi_two.html', 416, 420 ]
+90 silly gunzTarPerm extractEntry test/expected/assign_bake.html
+91 silly gunzTarPerm modified mode [ 'test/expected/assign_bake.html', 416, 420 ]
+92 silly gunzTarPerm extractEntry test/expected/costum_process_bake.html
+93 silly gunzTarPerm modified mode [ 'test/expected/costum_process_bake.html', 416, 420 ]
+94 silly gunzTarPerm extractEntry test/expected/default_bake.html
+95 silly gunzTarPerm modified mode [ 'test/expected/default_bake.html', 416, 420 ]
+96 silly gunzTarPerm extractEntry test/expected/extra/extra-0-a-team.html
+97 silly gunzTarPerm modified mode [ 'test/expected/extra/extra-0-a-team.html', 416, 420 ]
+98 silly gunzTarPerm extractEntry test/expected/extra/extra-1-b-team.html
+99 silly gunzTarPerm modified mode [ 'test/expected/extra/extra-1-b-team.html', 416, 420 ]
+100 silly gunzTarPerm extractEntry test/expected/extra/extra-page.html
+101 silly gunzTarPerm modified mode [ 'test/expected/extra/extra-page.html', 416, 420 ]
+102 silly gunzTarPerm extractEntry test/expected/extra_bake.html
+103 silly gunzTarPerm modified mode [ 'test/expected/extra_bake.html', 416, 420 ]
+104 silly gunzTarPerm extractEntry test/expected/extra_bake_multiple.html
+105 silly gunzTarPerm modified mode [ 'test/expected/extra_bake_multiple.html', 416, 420 ]
+106 silly gunzTarPerm extractEntry test/expected/foreach-inline_bake.html
+107 silly gunzTarPerm modified mode [ 'test/expected/foreach-inline_bake.html', 416, 420 ]
+108 silly gunzTarPerm extractEntry test/expected/foreach_bake.html
+109 silly gunzTarPerm modified mode [ 'test/expected/foreach_bake.html', 416, 420 ]
+110 silly gunzTarPerm extractEntry test/expected/foreach_meta.html
+111 silly gunzTarPerm modified mode [ 'test/expected/foreach_meta.html', 416, 420 ]
+112 silly gunzTarPerm extractEntry test/expected/format_bake.html
+113 silly gunzTarPerm modified mode [ 'test/expected/format_bake.html', 416, 420 ]
+114 silly gunzTarPerm extractEntry test/expected/function_content_bake.html
+115 silly gunzTarPerm modified mode [ 'test/expected/function_content_bake.html', 416, 420 ]
+116 silly gunzTarPerm extractEntry test/expected/html_include_bake.html
+117 silly gunzTarPerm modified mode [ 'test/expected/html_include_bake.html', 416, 420 ]
+118 silly gunzTarPerm extractEntry test/expected/if_bake.html
+119 silly gunzTarPerm modified mode [ 'test/expected/if_bake.html', 416, 420 ]
+120 silly gunzTarPerm extractEntry test/expected/inline_bake.html
+121 silly gunzTarPerm modified mode [ 'test/expected/inline_bake.html', 416, 420 ]
+122 silly gunzTarPerm extractEntry test/expected/inline_no_process.html
+123 silly gunzTarPerm modified mode [ 'test/expected/inline_no_process.html', 416, 420 ]
+124 silly gunzTarPerm extractEntry test/expected/advanced_bake_multi_one.html
+125 silly gunzTarPerm modified mode [ 'test/expected/advanced_bake_multi_one.html', 416, 420 ]
+126 silly gunzTarPerm extractEntry test/expected/keep_undefined_vars.html
+127 silly gunzTarPerm modified mode [ 'test/expected/keep_undefined_vars.html', 416, 420 ]
+128 silly gunzTarPerm extractEntry test/expected/multiline_bake.html
+129 silly gunzTarPerm modified mode [ 'test/expected/multiline_bake.html', 416, 420 ]
+130 silly gunzTarPerm extractEntry test/expected/no_process_bake.html
+131 silly gunzTarPerm modified mode [ 'test/expected/no_process_bake.html', 416, 420 ]
+132 silly gunzTarPerm extractEntry test/expected/object_bake.html
+133 silly gunzTarPerm modified mode [ 'test/expected/object_bake.html', 416, 420 ]
+134 silly gunzTarPerm extractEntry test/expected/path_with_placeholder.html
+135 silly gunzTarPerm modified mode [ 'test/expected/path_with_placeholder.html', 416, 420 ]
+136 silly gunzTarPerm extractEntry test/expected/recursive_bake.html
+137 silly gunzTarPerm modified mode [ 'test/expected/recursive_bake.html', 416, 420 ]
+138 silly gunzTarPerm extractEntry test/expected/recursive_path_with_placeholder.html
+139 silly gunzTarPerm modified mode [ 'test/expected/recursive_path_with_placeholder.html',
+139 silly gunzTarPerm   416,
+139 silly gunzTarPerm   420 ]
+140 silly gunzTarPerm extractEntry test/expected/render_bake.html
+141 silly gunzTarPerm modified mode [ 'test/expected/render_bake.html', 416, 420 ]
+142 silly gunzTarPerm extractEntry test/expected/section_bake.html
+143 silly gunzTarPerm modified mode [ 'test/expected/section_bake.html', 416, 420 ]
+144 silly gunzTarPerm extractEntry test/expected/semantic_if.html
+145 silly gunzTarPerm modified mode [ 'test/expected/semantic_if.html', 416, 420 ]
+146 silly gunzTarPerm extractEntry test/expected/transform_deep.html
+147 silly gunzTarPerm modified mode [ 'test/expected/transform_deep.html', 416, 420 ]
+148 silly gunzTarPerm extractEntry test/expected/transform_foreach.html
+149 silly gunzTarPerm modified mode [ 'test/expected/transform_foreach.html', 416, 420 ]
+150 silly gunzTarPerm extractEntry test/expected/transform_multiple.html
+151 silly gunzTarPerm modified mode [ 'test/expected/transform_multiple.html', 416, 420 ]
+152 silly gunzTarPerm extractEntry test/expected/transform_params.html
+153 silly gunzTarPerm modified mode [ 'test/expected/transform_params.html', 416, 420 ]
+154 silly gunzTarPerm extractEntry test/expected/transform_pass_through.html
+155 silly gunzTarPerm modified mode [ 'test/expected/transform_pass_through.html', 416, 420 ]
+156 silly gunzTarPerm extractEntry test/expected/transform_single.html
+157 silly gunzTarPerm modified mode [ 'test/expected/transform_single.html', 416, 420 ]
+158 silly gunzTarPerm extractEntry test/expected/var_as_array_key.html
+159 silly gunzTarPerm modified mode [ 'test/expected/var_as_array_key.html', 416, 420 ]
+160 silly gunzTarPerm extractEntry test/expected/var_as_array_key_number.html
+161 silly gunzTarPerm modified mode [ 'test/expected/var_as_array_key_number.html', 416, 420 ]
+162 silly gunzTarPerm extractEntry test/fixtures/inline_bake.html
+163 silly gunzTarPerm modified mode [ 'test/fixtures/inline_bake.html', 416, 420 ]
+164 silly gunzTarPerm extractEntry test/fixtures/absolute_path_bake.html
+165 silly gunzTarPerm modified mode [ 'test/fixtures/absolute_path_bake.html', 416, 420 ]
+166 silly gunzTarPerm extractEntry test/fixtures/advanced_bake_multi_one.html
+167 silly gunzTarPerm modified mode [ 'test/fixtures/advanced_bake_multi_one.html', 416, 420 ]
+168 silly gunzTarPerm extractEntry test/fixtures/advanced_bake_multi_two.html
+169 silly gunzTarPerm modified mode [ 'test/fixtures/advanced_bake_multi_two.html', 416, 420 ]
+170 silly gunzTarPerm extractEntry test/fixtures/assign_bake.html
+171 silly gunzTarPerm modified mode [ 'test/fixtures/assign_bake.html', 416, 420 ]
+172 silly gunzTarPerm extractEntry test/fixtures/content.json
+173 silly gunzTarPerm modified mode [ 'test/fixtures/content.json', 416, 420 ]
+174 silly gunzTarPerm extractEntry test/fixtures/default_absolute_path_bake.html
+175 silly gunzTarPerm modified mode [ 'test/fixtures/default_absolute_path_bake.html', 416, 420 ]
+176 silly gunzTarPerm extractEntry test/fixtures/default_bake.html
+177 silly gunzTarPerm modified mode [ 'test/fixtures/default_bake.html', 416, 420 ]
+178 silly gunzTarPerm extractEntry test/fixtures/extra_bake.html
+179 silly gunzTarPerm modified mode [ 'test/fixtures/extra_bake.html', 416, 420 ]
+180 silly gunzTarPerm extractEntry test/fixtures/extra_bake_multiple.html
+181 silly gunzTarPerm modified mode [ 'test/fixtures/extra_bake_multiple.html', 416, 420 ]
+182 silly gunzTarPerm extractEntry test/fixtures/extra_entry.html
+183 silly gunzTarPerm modified mode [ 'test/fixtures/extra_entry.html', 416, 420 ]
+184 silly gunzTarPerm extractEntry test/fixtures/foreach-inline_bake.html
+185 silly gunzTarPerm modified mode [ 'test/fixtures/foreach-inline_bake.html', 416, 420 ]
+186 silly gunzTarPerm extractEntry test/fixtures/foreach_bake.html
+187 silly gunzTarPerm modified mode [ 'test/fixtures/foreach_bake.html', 416, 420 ]
+188 silly gunzTarPerm extractEntry test/fixtures/foreach_meta.html
+189 silly gunzTarPerm modified mode [ 'test/fixtures/foreach_meta.html', 416, 420 ]
+190 silly gunzTarPerm extractEntry test/fixtures/format_bake.html
+191 silly gunzTarPerm modified mode [ 'test/fixtures/format_bake.html', 416, 420 ]
+192 silly gunzTarPerm extractEntry test/fixtures/function_content_bake.html
+193 silly gunzTarPerm modified mode [ 'test/fixtures/function_content_bake.html', 416, 420 ]
+194 silly gunzTarPerm extractEntry test/fixtures/html_include_bake.html
+195 silly gunzTarPerm modified mode [ 'test/fixtures/html_include_bake.html', 416, 420 ]
+196 silly gunzTarPerm extractEntry test/fixtures/if_bake.html
+197 silly gunzTarPerm modified mode [ 'test/fixtures/if_bake.html', 416, 420 ]
+198 silly gunzTarPerm extractEntry test/fixtures/includes/li.html
+199 silly gunzTarPerm modified mode [ 'test/fixtures/includes/li.html', 416, 420 ]
+200 silly gunzTarPerm extractEntry test/fixtures/includes/_val.html
+201 silly gunzTarPerm modified mode [ 'test/fixtures/includes/_val.html', 416, 420 ]
+202 silly gunzTarPerm extractEntry test/fixtures/includes/first.html
+203 silly gunzTarPerm modified mode [ 'test/fixtures/includes/first.html', 416, 420 ]
+204 silly gunzTarPerm extractEntry test/fixtures/includes/include-four.html
+205 silly gunzTarPerm modified mode [ 'test/fixtures/includes/include-four.html', 416, 420 ]
+206 silly gunzTarPerm extractEntry test/fixtures/includes/include-one.html
+207 silly gunzTarPerm modified mode [ 'test/fixtures/includes/include-one.html', 416, 420 ]
+208 silly gunzTarPerm extractEntry test/fixtures/includes/include-three.html
+209 silly gunzTarPerm modified mode [ 'test/fixtures/includes/include-three.html', 416, 420 ]
+210 silly gunzTarPerm extractEntry test/fixtures/includes/include-two.html
+211 silly gunzTarPerm modified mode [ 'test/fixtures/includes/include-two.html', 416, 420 ]
+212 silly gunzTarPerm extractEntry test/fixtures/includes/book.html
+213 silly gunzTarPerm modified mode [ 'test/fixtures/includes/book.html', 416, 420 ]
+214 silly gunzTarPerm extractEntry test/fixtures/includes/multiline.html
+215 silly gunzTarPerm modified mode [ 'test/fixtures/includes/multiline.html', 416, 420 ]
+216 silly gunzTarPerm extractEntry test/fixtures/includes/multiline_nest.html
+217 silly gunzTarPerm modified mode [ 'test/fixtures/includes/multiline_nest.html', 416, 420 ]
+218 silly gunzTarPerm extractEntry test/fixtures/includes/no-process.html
+219 silly gunzTarPerm modified mode [ 'test/fixtures/includes/no-process.html', 416, 420 ]
+220 silly gunzTarPerm extractEntry test/fixtures/includes/project.html
+221 silly gunzTarPerm modified mode [ 'test/fixtures/includes/project.html', 416, 420 ]
+222 silly gunzTarPerm extractEntry test/fixtures/includes/second.html
+223 silly gunzTarPerm modified mode [ 'test/fixtures/includes/second.html', 416, 420 ]
+224 silly gunzTarPerm extractEntry test/fixtures/includes/third.html
+225 silly gunzTarPerm modified mode [ 'test/fixtures/includes/third.html', 416, 420 ]
+226 silly gunzTarPerm extractEntry test/fixtures/includes/underscore.html
+227 silly gunzTarPerm modified mode [ 'test/fixtures/includes/underscore.html', 416, 420 ]
+228 silly gunzTarPerm extractEntry test/fixtures/advanced_bake.html
+229 silly gunzTarPerm modified mode [ 'test/fixtures/advanced_bake.html', 416, 420 ]
+230 silly gunzTarPerm extractEntry test/fixtures/inline_no_process.html
+231 silly gunzTarPerm modified mode [ 'test/fixtures/inline_no_process.html', 416, 420 ]
+232 silly gunzTarPerm extractEntry test/fixtures/inline_recursive_bake.html
+233 silly gunzTarPerm modified mode [ 'test/fixtures/inline_recursive_bake.html', 416, 420 ]
+234 silly gunzTarPerm extractEntry test/fixtures/keep_undefined_vars.html
+235 silly gunzTarPerm modified mode [ 'test/fixtures/keep_undefined_vars.html', 416, 420 ]
+236 silly gunzTarPerm extractEntry test/fixtures/multiline_bake.html
+237 silly gunzTarPerm modified mode [ 'test/fixtures/multiline_bake.html', 416, 420 ]
+238 silly gunzTarPerm extractEntry test/fixtures/no_process_bake.html
+239 silly gunzTarPerm modified mode [ 'test/fixtures/no_process_bake.html', 416, 420 ]
+240 silly gunzTarPerm extractEntry test/fixtures/path_with_placeholder.html
+241 silly gunzTarPerm modified mode [ 'test/fixtures/path_with_placeholder.html', 416, 420 ]
+242 silly gunzTarPerm extractEntry test/fixtures/recursive_bake.html
+243 silly gunzTarPerm modified mode [ 'test/fixtures/recursive_bake.html', 416, 420 ]
+244 silly gunzTarPerm extractEntry test/fixtures/recursive_path_with_placeholder.html
+245 silly gunzTarPerm modified mode [ 'test/fixtures/recursive_path_with_placeholder.html',
+245 silly gunzTarPerm   416,
+245 silly gunzTarPerm   420 ]
+246 silly gunzTarPerm extractEntry test/fixtures/render_bake.html
+247 silly gunzTarPerm modified mode [ 'test/fixtures/render_bake.html', 416, 420 ]
+248 silly gunzTarPerm extractEntry test/fixtures/section_bake.html
+249 silly gunzTarPerm modified mode [ 'test/fixtures/section_bake.html', 416, 420 ]
+250 silly gunzTarPerm extractEntry test/fixtures/semantic_if.html
+251 silly gunzTarPerm modified mode [ 'test/fixtures/semantic_if.html', 416, 420 ]
+252 silly gunzTarPerm extractEntry test/fixtures/transform_deep.html
+253 silly gunzTarPerm modified mode [ 'test/fixtures/transform_deep.html', 416, 420 ]
+254 silly gunzTarPerm extractEntry test/fixtures/transform_foreach.html
+255 silly gunzTarPerm modified mode [ 'test/fixtures/transform_foreach.html', 416, 420 ]
+256 silly gunzTarPerm extractEntry test/fixtures/transform_multiple.html
+257 silly gunzTarPerm modified mode [ 'test/fixtures/transform_multiple.html', 416, 420 ]
+258 silly gunzTarPerm extractEntry test/fixtures/transform_params.html
+259 silly gunzTarPerm modified mode [ 'test/fixtures/transform_params.html', 416, 420 ]
+260 silly gunzTarPerm extractEntry test/fixtures/transform_pass_through.html
+261 silly gunzTarPerm modified mode [ 'test/fixtures/transform_pass_through.html', 416, 420 ]
+262 silly gunzTarPerm extractEntry test/fixtures/transform_single.html
+263 silly gunzTarPerm modified mode [ 'test/fixtures/transform_single.html', 416, 420 ]
+264 silly gunzTarPerm extractEntry test/fixtures/var_as_array_key.html
+265 silly gunzTarPerm modified mode [ 'test/fixtures/var_as_array_key.html', 416, 420 ]
+266 verbose write writing to /Users/markdo/Desktop/Projects/node_modules/grunt-bake/package.json
+267 info preinstall grunt-bake@1.7.2
+268 verbose readDependencies loading dependencies from /Users/markdo/Desktop/Projects/node_modules/grunt-bake/package.json
+269 silly prepareForInstallMany adding mout@~0.11.1 from grunt-bake dependencies
+270 silly prepareForInstallMany adding grunt@>=0.4.0 from grunt-bake peerDependencies
+271 warn peerDependencies The peer dependency grunt@>=0.4.0 included from grunt-bake will no
+272 warn peerDependencies longer be automatically installed to fulfill the peerDependency
+273 warn peerDependencies in npm 3+. Your application will need to depend on it explicitly.
+274 verbose readDependencies loading dependencies from /Users/markdo/Desktop/Projects/node_modules/grunt-bake/package.json
+275 silly cache add args [ 'mout@~0.11.1', null ]
+276 verbose cache add spec mout@~0.11.1
+277 silly cache add parsed spec { raw: 'mout@~0.11.1',
+277 silly cache add   scope: null,
+277 silly cache add   name: 'mout',
+277 silly cache add   rawSpec: '~0.11.1',
+277 silly cache add   spec: '>=0.11.1 <0.12.0',
+277 silly cache add   type: 'range' }
+278 silly addNamed mout@>=0.11.1 <0.12.0
+279 verbose addNamed ">=0.11.1 <0.12.0" is a valid semver range for mout
+280 silly addNameRange { name: 'mout', range: '>=0.11.1 <0.12.0', hasData: false }
+281 silly mapToRegistry name mout
+282 silly mapToRegistry using default registry
+283 silly mapToRegistry registry https://registry.npmjs.org/
+284 silly mapToRegistry uri https://registry.npmjs.org/mout
+285 verbose addNameRange registry:https://registry.npmjs.org/mout not in flight; fetching
+286 verbose request uri https://registry.npmjs.org/mout
+287 verbose request no auth needed
+288 info attempt registry request try #1 at 14:44:48
+289 verbose etag "4OK9ML6D3U90MYO1LNNEBFTMA"
+290 http request GET https://registry.npmjs.org/mout
+291 http 200 https://registry.npmjs.org/mout
+292 silly get cb [ 200,
+292 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+292 silly get     etag: '"ASUX30GHENK4U90Y31GTKID23"',
+292 silly get     'content-type': 'application/json',
+292 silly get     'content-encoding': 'gzip',
+292 silly get     'cache-control': 'max-age=300',
+292 silly get     'content-length': '4647',
+292 silly get     'accept-ranges': 'bytes',
+292 silly get     date: 'Thu, 05 May 2016 04:44:48 GMT',
+292 silly get     via: '1.1 varnish',
+292 silly get     age: '279',
+292 silly get     connection: 'keep-alive',
+292 silly get     'x-served-by': 'cache-syd1621-SYD',
+292 silly get     'x-cache': 'HIT',
+292 silly get     'x-cache-hits': '18',
+292 silly get     'x-timer': 'S1462423488.334878,VS0,VE0',
+292 silly get     vary: 'Accept-Encoding' } ]
+293 verbose get saving mout to /Users/markdo/.npm/registry.npmjs.org/mout/.cache.json
+294 silly addNameRange number 2 { name: 'mout', range: '>=0.11.1 <0.12.0', hasData: true }
+295 silly addNameRange versions [ 'mout',
+295 silly addNameRange   [ '0.1.0',
+295 silly addNameRange     '0.2.0',
+295 silly addNameRange     '0.3.0',
+295 silly addNameRange     '0.4.0',
+295 silly addNameRange     '0.5.0',
+295 silly addNameRange     '0.6.0',
+295 silly addNameRange     '0.7.0',
+295 silly addNameRange     '0.7.1',
+295 silly addNameRange     '0.8.0',
+295 silly addNameRange     '0.9.0',
+295 silly addNameRange     '0.9.1',
+295 silly addNameRange     '0.10.0',
+295 silly addNameRange     '0.11.0',
+295 silly addNameRange     '0.11.1',
+295 silly addNameRange     '0.12.0',
+295 silly addNameRange     '1.0.0' ] ]
+296 silly addNamed mout@0.11.1
+297 verbose addNamed "0.11.1" is a plain semver version for mout
+298 silly mapToRegistry name mout
+299 silly mapToRegistry using default registry
+300 silly mapToRegistry registry https://registry.npmjs.org/
+301 silly mapToRegistry uri https://registry.npmjs.org/mout
+302 verbose addRemoteTarball https://registry.npmjs.org/mout/-/mout-0.11.1.tgz not in flight; adding
+303 verbose addRemoteTarball [ 'https://registry.npmjs.org/mout/-/mout-0.11.1.tgz',
+303 verbose addRemoteTarball   'ba3611df5f0e5b1ffbfd01166b8f02d1f5fa2b99' ]
+304 info retry fetch attempt 1 at 14:44:48
+305 info attempt registry request try #1 at 14:44:48
+306 http fetch GET https://registry.npmjs.org/mout/-/mout-0.11.1.tgz
+307 http fetch 200 https://registry.npmjs.org/mout/-/mout-0.11.1.tgz
+308 silly fetchAndShaCheck shasum ba3611df5f0e5b1ffbfd01166b8f02d1f5fa2b99
+309 verbose addTmpTarball /var/folders/b1/ymp4xcl12vd8l_h061smnlkc0000gp/T/npm-75238-816b5ee4/registry.npmjs.org/mout/-/mout-0.11.1.tgz not in flight; adding
+310 verbose addTmpTarball already have metadata; skipping unpack for mout@0.11.1
+311 silly cache afterAdd mout@0.11.1
+312 verbose afterAdd /Users/markdo/.npm/mout/0.11.1/package/package.json not in flight; writing
+313 verbose afterAdd /Users/markdo/.npm/mout/0.11.1/package/package.json written
+314 silly install resolved [ { name: 'mout',
+314 silly install resolved     description: 'Modular Utilities',
+314 silly install resolved     version: '0.11.1',
+314 silly install resolved     homepage: 'http://moutjs.com/',
+314 silly install resolved     contributors:
+314 silly install resolved      [ [Object],
+314 silly install resolved        [Object],
+314 silly install resolved        [Object],
+314 silly install resolved        [Object],
+314 silly install resolved        [Object],
+314 silly install resolved        [Object],
+314 silly install resolved        [Object],
+314 silly install resolved        [Object],
+314 silly install resolved        [Object] ],
+314 silly install resolved     keywords: [ 'utilities', 'functional', 'amd-utils', 'stdlib' ],
+314 silly install resolved     repository: { type: 'git', url: 'git://github.com/mout/mout.git' },
+314 silly install resolved     license: 'MIT',
+314 silly install resolved     bugs: { url: 'https://github.com/mout/mout/issues/' },
+314 silly install resolved     main: './index.js',
+314 silly install resolved     scripts:
+314 silly install resolved      { pretest: 'node build pkg',
+314 silly install resolved        test: 'istanbul test tests/runner.js --hook-run-in-context' },
+314 silly install resolved     directories: { doc: './doc' },
+314 silly install resolved     devDependencies:
+314 silly install resolved      { istanbul: '~0.1.27',
+314 silly install resolved        'jasmine-node': '~1.14.5',
+314 silly install resolved        requirejs: '2.x',
+314 silly install resolved        nodefy: '*',
+314 silly install resolved        mdoc: '~0.3.2',
+314 silly install resolved        handlebars: '~1.0.6',
+314 silly install resolved        commander: '~1.0.5',
+314 silly install resolved        rocambole: '~0.2.3',
+314 silly install resolved        jshint: '2.x',
+314 silly install resolved        rimraf: '2.2.2',
+314 silly install resolved        regenerate: '~0.5.4' },
+314 silly install resolved     testling:
+314 silly install resolved      { preprocess: 'node build testling',
+314 silly install resolved        browsers: [Object],
+314 silly install resolved        scripts: [Object] },
+314 silly install resolved     gitHead: '588be08f87ee06cc0e14aa1fdb4da3c1417949a4',
+314 silly install resolved     _id: 'mout@0.11.1',
+314 silly install resolved     _shasum: 'ba3611df5f0e5b1ffbfd01166b8f02d1f5fa2b99',
+314 silly install resolved     _from: 'mout@>=0.11.1 <0.12.0',
+314 silly install resolved     _npmVersion: '2.14.7',
+314 silly install resolved     _nodeVersion: '4.2.1',
+314 silly install resolved     _npmUser: { name: 'millermedeiros', email: 'miller@millermedeiros.com' },
+314 silly install resolved     dist:
+314 silly install resolved      { shasum: 'ba3611df5f0e5b1ffbfd01166b8f02d1f5fa2b99',
+314 silly install resolved        tarball: 'https://registry.npmjs.org/mout/-/mout-0.11.1.tgz' },
+314 silly install resolved     maintainers: [ [Object], [Object], [Object], [Object] ],
+314 silly install resolved     _resolved: 'https://registry.npmjs.org/mout/-/mout-0.11.1.tgz' } ]
+315 info install mout@0.11.1 into /Users/markdo/Desktop/Projects/node_modules/grunt-bake
+316 info installOne mout@0.11.1
+317 verbose installOne of mout to /Users/markdo/Desktop/Projects/node_modules/grunt-bake not in flight; installing
+318 verbose lock using /Users/markdo/.npm/_locks/mout-93fdd364d3eab2f5.lock for /Users/markdo/Desktop/Projects/node_modules/grunt-bake/node_modules/mout
+319 silly install write writing mout 0.11.1 to /Users/markdo/Desktop/Projects/node_modules/grunt-bake/node_modules/mout
+320 verbose unbuild node_modules/grunt-bake/node_modules/mout
+321 silly gentlyRm /Users/markdo/Desktop/Projects/node_modules/grunt-bake/node_modules/mout is being purged from base /Users/markdo/Desktop/Projects
+322 verbose gentlyRm don't care about contents; nuking /Users/markdo/Desktop/Projects/node_modules/grunt-bake/node_modules/mout
+323 verbose tar unpack /Users/markdo/.npm/mout/0.11.1/package.tgz
+324 verbose tar unpacking to /Users/markdo/Desktop/Projects/node_modules/grunt-bake/node_modules/mout
+325 silly gentlyRm /Users/markdo/Desktop/Projects/node_modules/grunt-bake/node_modules/mout is being purged
+326 verbose gentlyRm don't care about contents; nuking /Users/markdo/Desktop/Projects/node_modules/grunt-bake/node_modules/mout
+327 silly gunzTarPerm modes [ '755', '644' ]
+328 silly gunzTarPerm extractEntry package.json
+329 silly gunzTarPerm extractEntry .npmignore
+330 silly gunzTarPerm extractEntry README.md
+331 silly gunzTarPerm extractEntry queryString.js
+332 silly gunzTarPerm extractEntry object.js
+333 silly gunzTarPerm extractEntry random.js
+334 silly gunzTarPerm extractEntry math.js
+335 silly gunzTarPerm extractEntry array.js
+336 silly gunzTarPerm extractEntry lang.js
+337 silly gunzTarPerm extractEntry time.js
+338 silly gunzTarPerm extractEntry function.js
+339 silly gunzTarPerm extractEntry collection.js
+340 silly gunzTarPerm extractEntry string.js
+341 silly gunzTarPerm extractEntry date.js
+342 silly gunzTarPerm extractEntry number.js
+343 silly gunzTarPerm extractEntry index.js
+344 silly gunzTarPerm extractEntry object/bindAll.js
+345 silly gunzTarPerm extractEntry object/get.js
+346 silly gunzTarPerm extractEntry object/has.js
+347 silly gunzTarPerm extractEntry object/hasOwn.js
+348 silly gunzTarPerm extractEntry object/keys.js
+349 silly gunzTarPerm extractEntry object/functions.js
+350 silly gunzTarPerm extractEntry object/matches.js
+351 silly gunzTarPerm extractEntry object/max.js
+352 silly gunzTarPerm extractEntry object/merge.js
+353 silly gunzTarPerm extractEntry object/min.js
+354 silly gunzTarPerm extractEntry object/mixIn.js
+355 silly gunzTarPerm extractEntry object/forOwn.js
+356 silly gunzTarPerm extractEntry object/namespace.js
+357 silly gunzTarPerm extractEntry object/forIn.js
+358 silly gunzTarPerm extractEntry object/omit.js
+359 silly gunzTarPerm extractEntry object/flatten.js
+360 silly gunzTarPerm extractEntry object/pick.js
+361 silly gunzTarPerm extractEntry object/find.js
+362 silly gunzTarPerm extractEntry object/pluck.js
+363 silly gunzTarPerm extractEntry object/filter.js
+364 silly gunzTarPerm extractEntry object/reduce.js
+365 silly gunzTarPerm extractEntry object/fillIn.js
+366 silly gunzTarPerm extractEntry object/reject.js
+367 silly gunzTarPerm extractEntry object/every.js
+368 silly gunzTarPerm extractEntry object/result.js
+369 silly gunzTarPerm extractEntry object/equals.js
+370 silly gunzTarPerm extractEntry object/set.js
+371 silly gunzTarPerm extractEntry object/deepMixIn.js
+372 silly gunzTarPerm extractEntry object/size.js
+373 silly gunzTarPerm extractEntry object/deepMatches.js
+374 silly gunzTarPerm extractEntry object/some.js
+375 silly gunzTarPerm extractEntry object/deepFillIn.js
+376 silly gunzTarPerm extractEntry object/unset.js
+377 silly gunzTarPerm extractEntry object/contains.js
+378 silly gunzTarPerm extractEntry object/values.js
+379 silly gunzTarPerm extractEntry object/map.js
+380 silly gunzTarPerm extractEntry date/dayOfTheYear.js
+381 silly gunzTarPerm extractEntry date/i18n_.js
+382 silly gunzTarPerm extractEntry date/isLeapYear.js
+383 silly gunzTarPerm extractEntry date/isSame.js
+384 silly gunzTarPerm extractEntry date/parseIso.js
+385 silly gunzTarPerm extractEntry date/totalDaysInYear.js
+386 silly gunzTarPerm extractEntry date/startOf.js
+387 silly gunzTarPerm extractEntry date/strftime.js
+388 silly gunzTarPerm extractEntry date/timezoneAbbr.js
+389 silly gunzTarPerm extractEntry date/timezoneOffset.js
+390 silly gunzTarPerm extractEntry date/totalDaysInMonth.js
+391 silly gunzTarPerm extractEntry date/diff.js
+392 silly gunzTarPerm extractEntry date/weekOfTheYear.js
+393 silly gunzTarPerm extractEntry date/quarter.js
+394 silly gunzTarPerm extractEntry date/i18n/de-DE.js
+395 silly gunzTarPerm extractEntry date/i18n/en-US.js
+396 silly gunzTarPerm extractEntry date/i18n/pt-BR.js
+397 silly gunzTarPerm extractEntry function/awaitDelay.js
+398 silly gunzTarPerm extractEntry function/debounce.js
+399 silly gunzTarPerm extractEntry function/func.js
+400 silly gunzTarPerm extractEntry function/identity.js
+401 silly gunzTarPerm extractEntry function/constant.js
+402 silly gunzTarPerm extractEntry function/partial.js
+403 silly gunzTarPerm extractEntry function/prop.js
+404 silly gunzTarPerm extractEntry function/series.js
+405 silly gunzTarPerm extractEntry function/throttle.js
+406 silly gunzTarPerm extractEntry function/timeout.js
+407 silly gunzTarPerm extractEntry function/compose.js
+408 silly gunzTarPerm extractEntry function/times.js
+409 silly gunzTarPerm extractEntry function/bind.js
+410 silly gunzTarPerm extractEntry function/wrap.js
+411 silly gunzTarPerm extractEntry function/makeIterator_.js
+412 silly gunzTarPerm extractEntry collection/contains.js
+413 silly gunzTarPerm extractEntry collection/find.js
+414 silly gunzTarPerm extractEntry collection/forEach.js
+415 silly gunzTarPerm extractEntry collection/make_.js
+416 silly gunzTarPerm extractEntry collection/map.js
+417 silly gunzTarPerm extractEntry collection/filter.js
+418 silly gunzTarPerm extractEntry collection/min.js
+419 silly gunzTarPerm extractEntry collection/pluck.js
+420 silly gunzTarPerm extractEntry collection/reduce.js
+421 silly gunzTarPerm extractEntry collection/reject.js
+422 silly gunzTarPerm extractEntry collection/size.js
+423 silly gunzTarPerm extractEntry collection/every.js
+424 silly gunzTarPerm extractEntry collection/some.js
+425 silly gunzTarPerm extractEntry collection/max.js
+426 silly gunzTarPerm extractEntry lang/GLOBAL.js
+427 silly gunzTarPerm extractEntry lang/isDate.js
+428 silly gunzTarPerm extractEntry lang/isEmpty.js
+429 silly gunzTarPerm extractEntry lang/isFinite.js
+430 silly gunzTarPerm extractEntry lang/isFunction.js
+431 silly gunzTarPerm extractEntry lang/isBoolean.js
+432 silly gunzTarPerm extractEntry lang/isKind.js
+433 silly gunzTarPerm extractEntry lang/isNaN.js
+434 silly gunzTarPerm extractEntry lang/isNull.js
+435 silly gunzTarPerm extractEntry lang/isNumber.js
+436 silly gunzTarPerm extractEntry lang/isObject.js
+437 silly gunzTarPerm extractEntry lang/isArray.js
+438 silly gunzTarPerm extractEntry lang/isPlainObject.js
+439 silly gunzTarPerm extractEntry lang/isArguments.js
+440 silly gunzTarPerm extractEntry lang/isPrimitive.js
+441 silly gunzTarPerm extractEntry lang/is.js
+442 silly gunzTarPerm extractEntry lang/isRegExp.js
+443 silly gunzTarPerm extractEntry lang/inheritPrototype.js
+444 silly gunzTarPerm extractEntry lang/isString.js
+445 silly gunzTarPerm extractEntry lang/defaults.js
+446 silly gunzTarPerm extractEntry lang/isUndefined.js
+447 silly gunzTarPerm extractEntry lang/deepEquals.js
+448 silly gunzTarPerm extractEntry lang/isnt.js
+449 silly gunzTarPerm extractEntry lang/deepClone.js
+450 silly gunzTarPerm extractEntry lang/kindOf.js
+451 silly gunzTarPerm extractEntry lang/ctorApply.js
+452 silly gunzTarPerm extractEntry lang/toArray.js
+453 silly gunzTarPerm extractEntry lang/createObject.js
+454 silly gunzTarPerm extractEntry lang/toNumber.js
+455 silly gunzTarPerm extractEntry lang/clone.js
+456 silly gunzTarPerm extractEntry lang/toString.js
+457 silly gunzTarPerm extractEntry lang/isInteger.js
+458 silly gunzTarPerm extractEntry math/ceil.js
+459 silly gunzTarPerm extractEntry math/countSteps.js
+460 silly gunzTarPerm extractEntry math/floor.js
+461 silly gunzTarPerm extractEntry math/inRange.js
+462 silly gunzTarPerm extractEntry math/clamp.js
+463 silly gunzTarPerm extractEntry math/lerp.js
+464 silly gunzTarPerm extractEntry math/loop.js
+465 silly gunzTarPerm extractEntry math/map.js
+466 silly gunzTarPerm extractEntry math/norm.js
+467 silly gunzTarPerm extractEntry math/round.js
+468 silly gunzTarPerm extractEntry math/isNear.js
+469 silly gunzTarPerm extractEntry array/append.js
+470 silly gunzTarPerm extractEntry array/join.js
+471 silly gunzTarPerm extractEntry array/last.js
+472 silly gunzTarPerm extractEntry array/lastIndexOf.js
+473 silly gunzTarPerm extractEntry array/invoke.js
+474 silly gunzTarPerm extractEntry array/max.js
+475 silly gunzTarPerm extractEntry array/min.js
+476 silly gunzTarPerm extractEntry array/pick.js
+477 silly gunzTarPerm extractEntry array/pluck.js
+478 silly gunzTarPerm extractEntry array/range.js
+479 silly gunzTarPerm extractEntry array/intersection.js
+480 silly gunzTarPerm extractEntry array/reduce.js
+481 silly gunzTarPerm extractEntry array/insert.js
+482 silly gunzTarPerm extractEntry array/reduceRight.js
+483 silly gunzTarPerm extractEntry array/indexOf.js
+484 silly gunzTarPerm extractEntry array/reject.js
+485 silly gunzTarPerm extractEntry array/groupBy.js
+486 silly gunzTarPerm extractEntry array/remove.js
+487 silly gunzTarPerm extractEntry array/forEach.js
+488 silly gunzTarPerm extractEntry array/removeAll.js
+489 silly gunzTarPerm extractEntry array/flatten.js
+490 silly gunzTarPerm extractEntry array/reverse.js
+491 silly gunzTarPerm extractEntry array/findLastIndex.js
+492 silly gunzTarPerm extractEntry array/shuffle.js
+493 silly gunzTarPerm extractEntry array/findLast.js
+494 silly gunzTarPerm extractEntry array/slice.js
+495 silly gunzTarPerm extractEntry array/findIndex.js
+496 silly gunzTarPerm extractEntry array/some.js
+497 silly gunzTarPerm extractEntry array/find.js
+498 silly gunzTarPerm extractEntry array/sort.js
+499 silly gunzTarPerm extractEntry array/filter.js
+500 silly gunzTarPerm extractEntry array/sortBy.js
+501 silly gunzTarPerm extractEntry array/every.js
+502 silly gunzTarPerm extractEntry array/split.js
+503 silly gunzTarPerm extractEntry array/equals.js
+504 silly gunzTarPerm extractEntry array/take.js
+505 silly gunzTarPerm extractEntry array/difference.js
+506 silly gunzTarPerm extractEntry array/toLookup.js
+507 silly gunzTarPerm extractEntry array/contains.js
+508 silly gunzTarPerm extractEntry array/union.js
+509 silly gunzTarPerm extractEntry array/compact.js
+510 silly gunzTarPerm extractEntry array/unique.js
+511 silly gunzTarPerm extractEntry array/combine.js
+512 silly gunzTarPerm extractEntry array/xor.js
+513 silly gunzTarPerm extractEntry array/collect.js
+514 silly gunzTarPerm extractEntry array/zip.js
+515 silly gunzTarPerm extractEntry array/map.js
+516 silly gunzTarPerm extractEntry time/convert.js
+517 silly gunzTarPerm extractEntry time/now.js
+518 silly gunzTarPerm extractEntry time/parseMs.js
+519 silly gunzTarPerm extractEntry time/toTimeString.js
+520 silly gunzTarPerm extractEntry number/MAX_INT.js
+521 silly gunzTarPerm extractEntry number/currencyFormat.js
+522 silly gunzTarPerm extractEntry number/enforcePrecision.js
+523 silly gunzTarPerm extractEntry number/isNaN.js
+524 silly gunzTarPerm extractEntry number/abbreviate.js
+525 silly gunzTarPerm extractEntry number/ordinal.js
+526 silly gunzTarPerm extractEntry number/pad.js
+527 silly gunzTarPerm extractEntry number/rol.js
+528 silly gunzTarPerm extractEntry number/ror.js
+529 silly gunzTarPerm extractEntry number/sign.js
+530 silly gunzTarPerm extractEntry number/MIN_INT.js
+531 silly gunzTarPerm extractEntry number/toInt.js
+532 silly gunzTarPerm extractEntry number/MAX_UINT.js
+533 silly gunzTarPerm extractEntry number/toUInt.js
+534 silly gunzTarPerm extractEntry number/MAX_SAFE_INTEGER.js
+535 silly gunzTarPerm extractEntry number/toUInt31.js
+536 silly gunzTarPerm extractEntry number/nth.js
+537 silly gunzTarPerm extractEntry doc/number.md
+538 silly gunzTarPerm extractEntry doc/array.md
+539 silly gunzTarPerm extractEntry doc/date.md
+540 silly gunzTarPerm extractEntry doc/function.md
+541 silly gunzTarPerm extractEntry doc/lang.md
+542 silly gunzTarPerm extractEntry doc/math.md
+543 silly gunzTarPerm extractEntry doc/collection.md
+544 silly gunzTarPerm extractEntry doc/object.md
+545 silly gunzTarPerm extractEntry doc/queryString.md
+546 silly gunzTarPerm extractEntry doc/random.md
+547 silly gunzTarPerm extractEntry doc/string.md
+548 silly gunzTarPerm extractEntry doc/time.md
+549 silly gunzTarPerm extractEntry LICENSE.md
+550 silly gunzTarPerm extractEntry CONTRIBUTING.md
+551 silly gunzTarPerm extractEntry queryString/contains.js
+552 silly gunzTarPerm extractEntry queryString/decode.js
+553 silly gunzTarPerm extractEntry queryString/encode.js
+554 silly gunzTarPerm extractEntry queryString/getParam.js
+555 silly gunzTarPerm extractEntry queryString/getQuery.js
+556 silly gunzTarPerm extractEntry queryString/parse.js
+557 silly gunzTarPerm extractEntry queryString/setParam.js
+558 silly gunzTarPerm extractEntry CHANGELOG.md
+559 silly gunzTarPerm extractEntry random/choice.js
+560 silly gunzTarPerm extractEntry random/guid.js
+561 silly gunzTarPerm extractEntry random/rand.js
+562 silly gunzTarPerm extractEntry random/randBit.js
+563 silly gunzTarPerm extractEntry random/randBool.js
+564 silly gunzTarPerm extractEntry random/randHex.js
+565 silly gunzTarPerm extractEntry random/randInt.js
+566 silly gunzTarPerm extractEntry random/randSign.js
+567 silly gunzTarPerm extractEntry random/randString.js
+568 silly gunzTarPerm extractEntry random/random.js
+569 silly gunzTarPerm extractEntry .travis.yml
+570 silly gunzTarPerm extractEntry src/time.js
+571 silly gunzTarPerm extractEntry src/collection.js
+572 silly gunzTarPerm extractEntry src/random.js
+573 silly gunzTarPerm extractEntry src/date.js
+574 silly gunzTarPerm extractEntry src/queryString.js
+575 silly gunzTarPerm extractEntry src/string.js
+576 silly gunzTarPerm extractEntry src/index.js
+577 silly gunzTarPerm extractEntry src/object.js
+578 silly gunzTarPerm extractEntry src/lang.js
+579 silly gunzTarPerm extractEntry src/number.js
+580 silly gunzTarPerm extractEntry src/array.js
+581 silly gunzTarPerm extractEntry src/function.js
+582 silly gunzTarPerm extractEntry src/math.js
+583 silly gunzTarPerm extractEntry src/random/choice.js
+584 silly gunzTarPerm extractEntry src/random/guid.js
+585 silly gunzTarPerm extractEntry src/random/rand.js
+586 silly gunzTarPerm extractEntry src/random/randBit.js
+587 silly gunzTarPerm extractEntry src/random/randBool.js
+588 silly gunzTarPerm extractEntry src/random/randHex.js
+589 silly gunzTarPerm extractEntry src/random/randInt.js
+590 silly gunzTarPerm extractEntry src/random/randSign.js
+591 silly gunzTarPerm extractEntry src/random/randString.js
+592 silly gunzTarPerm extractEntry src/random/random.js
+593 silly gunzTarPerm extractEntry src/number/MAX_INT.js
+594 silly gunzTarPerm extractEntry src/number/currencyFormat.js
+595 silly gunzTarPerm extractEntry src/number/enforcePrecision.js
+596 silly gunzTarPerm extractEntry src/number/isNaN.js
+597 silly gunzTarPerm extractEntry src/number/abbreviate.js
+598 silly gunzTarPerm extractEntry src/number/ordinal.js
+599 silly gunzTarPerm extractEntry src/number/pad.js
+600 silly gunzTarPerm extractEntry src/number/rol.js
+601 silly gunzTarPerm extractEntry src/number/ror.js
+602 silly gunzTarPerm extractEntry src/number/sign.js
+603 silly gunzTarPerm extractEntry src/number/MIN_INT.js
+604 silly gunzTarPerm extractEntry src/number/toInt.js
+605 silly gunzTarPerm extractEntry src/number/MAX_UINT.js
+606 silly gunzTarPerm extractEntry src/number/toUInt.js
+607 silly gunzTarPerm extractEntry src/number/MAX_SAFE_INTEGER.js
+608 silly gunzTarPerm extractEntry src/number/toUInt31.js
+609 silly gunzTarPerm extractEntry src/number/nth.js
+610 silly gunzTarPerm extractEntry src/object/bindAll.js
+611 silly gunzTarPerm extractEntry src/object/get.js
+612 silly gunzTarPerm extractEntry src/object/has.js
+613 silly gunzTarPerm extractEntry src/object/hasOwn.js
+614 silly gunzTarPerm extractEntry src/object/keys.js
+615 silly gunzTarPerm extractEntry src/object/functions.js
+616 silly gunzTarPerm extractEntry src/object/matches.js
+617 silly gunzTarPerm extractEntry src/object/max.js
+618 silly gunzTarPerm extractEntry src/object/merge.js
+619 silly gunzTarPerm extractEntry src/object/min.js
+620 silly gunzTarPerm extractEntry src/object/mixIn.js
+621 silly gunzTarPerm extractEntry src/object/forOwn.js
+622 silly gunzTarPerm extractEntry src/object/namespace.js
+623 silly gunzTarPerm extractEntry src/object/forIn.js
+624 silly gunzTarPerm extractEntry src/object/omit.js
+625 silly gunzTarPerm extractEntry src/object/flatten.js
+626 silly gunzTarPerm extractEntry src/object/pick.js
+627 silly gunzTarPerm extractEntry src/object/find.js
+628 silly gunzTarPerm extractEntry src/object/pluck.js
+629 silly gunzTarPerm extractEntry src/object/filter.js
+630 silly gunzTarPerm extractEntry src/object/reduce.js
+631 silly gunzTarPerm extractEntry src/object/fillIn.js
+632 silly gunzTarPerm extractEntry src/object/reject.js
+633 silly gunzTarPerm extractEntry src/object/every.js
+634 silly gunzTarPerm extractEntry src/object/result.js
+635 silly gunzTarPerm extractEntry src/object/equals.js
+636 silly gunzTarPerm extractEntry src/object/set.js
+637 silly gunzTarPerm extractEntry src/object/deepMixIn.js
+638 silly gunzTarPerm extractEntry src/object/size.js
+639 silly gunzTarPerm extractEntry src/object/deepMatches.js
+640 silly gunzTarPerm extractEntry src/object/some.js
+641 silly gunzTarPerm extractEntry src/object/deepFillIn.js
+642 silly gunzTarPerm extractEntry src/object/unset.js
+643 silly gunzTarPerm extractEntry src/object/contains.js
+644 silly gunzTarPerm extractEntry src/object/values.js
+645 silly gunzTarPerm extractEntry src/object/map.js
+646 silly gunzTarPerm extractEntry src/lang/GLOBAL.js
+647 silly gunzTarPerm extractEntry src/lang/isDate.js
+648 silly gunzTarPerm extractEntry src/lang/isEmpty.js
+649 silly gunzTarPerm extractEntry src/lang/isFinite.js
+650 silly gunzTarPerm extractEntry src/lang/isFunction.js
+651 silly gunzTarPerm extractEntry src/lang/isBoolean.js
+652 silly gunzTarPerm extractEntry src/lang/isKind.js
+653 silly gunzTarPerm extractEntry src/lang/isNaN.js
+654 silly gunzTarPerm extractEntry src/lang/isNull.js
+655 silly gunzTarPerm extractEntry src/lang/isNumber.js
+656 silly gunzTarPerm extractEntry src/lang/isObject.js
+657 silly gunzTarPerm extractEntry src/lang/isArray.js
+658 silly gunzTarPerm extractEntry src/lang/isPlainObject.js
+659 silly gunzTarPerm extractEntry src/lang/isArguments.js
+660 silly gunzTarPerm extractEntry src/lang/isPrimitive.js
+661 silly gunzTarPerm extractEntry src/lang/is.js
+662 silly gunzTarPerm extractEntry src/lang/isRegExp.js
+663 silly gunzTarPerm extractEntry src/lang/inheritPrototype.js
+664 silly gunzTarPerm extractEntry src/lang/isString.js
+665 silly gunzTarPerm extractEntry src/lang/defaults.js
+666 silly gunzTarPerm extractEntry src/lang/isUndefined.js
+667 silly gunzTarPerm extractEntry src/lang/deepEquals.js
+668 silly gunzTarPerm extractEntry src/lang/isnt.js
+669 silly gunzTarPerm extractEntry src/lang/deepClone.js
+670 silly gunzTarPerm extractEntry src/lang/kindOf.js
+671 silly gunzTarPerm extractEntry src/lang/ctorApply.js
+672 silly gunzTarPerm extractEntry src/lang/toArray.js
+673 silly gunzTarPerm extractEntry src/lang/createObject.js
+674 silly gunzTarPerm extractEntry src/lang/toNumber.js
+675 silly gunzTarPerm extractEntry src/lang/clone.js
+676 silly gunzTarPerm extractEntry src/lang/toString.js
+677 silly gunzTarPerm extractEntry src/lang/isInteger.js
+678 silly gunzTarPerm extractEntry src/queryString/contains.js
+679 silly gunzTarPerm extractEntry src/queryString/decode.js
+680 silly gunzTarPerm extractEntry src/queryString/encode.js
+681 silly gunzTarPerm extractEntry src/queryString/getParam.js
+682 silly gunzTarPerm extractEntry src/queryString/getQuery.js
+683 silly gunzTarPerm extractEntry src/queryString/parse.js
+684 silly gunzTarPerm extractEntry src/queryString/setParam.js
+685 silly gunzTarPerm extractEntry src/function/awaitDelay.js
+686 silly gunzTarPerm extractEntry src/function/debounce.js
+687 silly gunzTarPerm extractEntry src/function/func.js
+688 silly gunzTarPerm extractEntry src/function/identity.js
+689 silly gunzTarPerm extractEntry src/function/constant.js
+690 silly gunzTarPerm extractEntry src/function/partial.js
+691 silly gunzTarPerm extractEntry src/function/prop.js
+692 silly gunzTarPerm extractEntry src/function/series.js
+693 silly gunzTarPerm extractEntry src/function/throttle.js
+694 silly gunzTarPerm extractEntry src/function/timeout.js
+695 silly gunzTarPerm extractEntry src/function/compose.js
+696 silly gunzTarPerm extractEntry src/function/times.js
+697 silly gunzTarPerm extractEntry src/function/bind.js
+698 silly gunzTarPerm extractEntry src/function/wrap.js
+699 silly gunzTarPerm extractEntry src/function/makeIterator_.js
+700 silly gunzTarPerm extractEntry src/math/ceil.js
+701 silly gunzTarPerm extractEntry src/math/countSteps.js
+702 silly gunzTarPerm extractEntry src/math/floor.js
+703 silly gunzTarPerm extractEntry src/math/inRange.js
+704 silly gunzTarPerm extractEntry src/math/clamp.js
+705 silly gunzTarPerm extractEntry src/math/lerp.js
+706 silly gunzTarPerm extractEntry src/math/loop.js
+707 silly gunzTarPerm extractEntry src/math/map.js
+708 silly gunzTarPerm extractEntry src/math/norm.js
+709 silly gunzTarPerm extractEntry src/math/round.js
+710 silly gunzTarPerm extractEntry src/math/isNear.js
+711 silly gunzTarPerm extractEntry src/date/dayOfTheYear.js
+712 silly gunzTarPerm extractEntry src/date/i18n_.js
+713 silly gunzTarPerm extractEntry src/date/isLeapYear.js
+714 silly gunzTarPerm extractEntry src/date/isSame.js
+715 silly gunzTarPerm extractEntry src/date/parseIso.js
+716 silly gunzTarPerm extractEntry src/date/totalDaysInYear.js
+717 silly gunzTarPerm extractEntry src/date/startOf.js
+718 silly gunzTarPerm extractEntry src/date/strftime.js
+719 silly gunzTarPerm extractEntry src/date/timezoneAbbr.js
+720 silly gunzTarPerm extractEntry src/date/timezoneOffset.js
+721 silly gunzTarPerm extractEntry src/date/totalDaysInMonth.js
+722 silly gunzTarPerm extractEntry src/date/diff.js
+723 silly gunzTarPerm extractEntry src/date/weekOfTheYear.js
+724 silly gunzTarPerm extractEntry src/date/quarter.js
+725 silly gunzTarPerm extractEntry src/date/i18n/de-DE.js
+726 silly gunzTarPerm extractEntry src/date/i18n/en-US.js
+727 silly gunzTarPerm extractEntry src/date/i18n/pt-BR.js
+728 silly gunzTarPerm extractEntry src/string/WHITE_SPACES.js
+729 silly gunzTarPerm extractEntry src/string/normalizeLineBreaks.js
+730 silly gunzTarPerm extractEntry src/string/pascalCase.js
+731 silly gunzTarPerm extractEntry src/string/properCase.js
+732 silly gunzTarPerm extractEntry src/string/removeNonASCII.js
+733 silly gunzTarPerm extractEntry src/string/makePath.js
+734 silly gunzTarPerm extractEntry src/string/repeat.js
+735 silly gunzTarPerm extractEntry src/string/replace.js
+736 silly gunzTarPerm extractEntry src/string/replaceAccents.js
+737 silly gunzTarPerm extractEntry src/string/rpad.js
+738 silly gunzTarPerm extractEntry src/string/rtrim.js
+739 silly gunzTarPerm extractEntry src/string/ltrim.js
+740 silly gunzTarPerm extractEntry src/string/sentenceCase.js
+741 silly gunzTarPerm extractEntry src/string/lpad.js
+742 silly gunzTarPerm extractEntry src/string/slugify.js
+743 silly gunzTarPerm extractEntry src/string/lowerCase.js
+744 silly gunzTarPerm extractEntry src/string/startsWith.js
+745 silly gunzTarPerm extractEntry src/string/interpolate.js
+746 silly gunzTarPerm extractEntry src/string/stripHtmlTags.js
+747 silly gunzTarPerm extractEntry src/string/insert.js
+748 silly gunzTarPerm extractEntry src/string/trim.js
+749 silly gunzTarPerm extractEntry src/string/hyphenate.js
+750 silly gunzTarPerm extractEntry src/string/truncate.js
+751 silly gunzTarPerm extractEntry src/string/escapeUnicode.js
+752 silly gunzTarPerm extractEntry src/string/typecast.js
+753 silly gunzTarPerm extractEntry src/string/escapeRegExp.js
+754 silly gunzTarPerm extractEntry src/string/unCamelCase.js
+755 silly gunzTarPerm extractEntry src/string/escapeHtml.js
+756 silly gunzTarPerm extractEntry src/string/underscore.js
+757 silly gunzTarPerm extractEntry src/string/endsWith.js
+758 silly gunzTarPerm extractEntry src/string/unescapeHtml.js
+759 silly gunzTarPerm extractEntry src/string/crop.js
+760 silly gunzTarPerm extractEntry src/string/unescapeUnicode.js
+761 silly gunzTarPerm extractEntry src/string/contains.js
+762 silly gunzTarPerm extractEntry src/string/unhyphenate.js
+763 silly gunzTarPerm extractEntry src/string/camelCase.js
+764 silly gunzTarPerm extractEntry src/string/upperCase.js
+765 silly gunzTarPerm extractEntry src/string/removeNonWord.js
+766 silly gunzTarPerm extractEntry src/collection/contains.js
+767 silly gunzTarPerm extractEntry src/collection/find.js
+768 silly gunzTarPerm extractEntry src/collection/forEach.js
+769 silly gunzTarPerm extractEntry src/collection/make_.js
+770 silly gunzTarPerm extractEntry src/collection/map.js
+771 silly gunzTarPerm extractEntry src/collection/filter.js
+772 silly gunzTarPerm extractEntry src/collection/min.js
+773 silly gunzTarPerm extractEntry src/collection/pluck.js
+774 silly gunzTarPerm extractEntry src/collection/reduce.js
+775 silly gunzTarPerm extractEntry src/collection/reject.js
+776 silly gunzTarPerm extractEntry src/collection/size.js
+777 silly gunzTarPerm extractEntry src/collection/every.js
+778 silly gunzTarPerm extractEntry src/collection/some.js
+779 silly gunzTarPerm extractEntry src/collection/max.js
+780 silly gunzTarPerm extractEntry src/time/convert.js
+781 silly gunzTarPerm extractEntry src/time/now.js
+782 silly gunzTarPerm extractEntry src/time/parseMs.js
+783 silly gunzTarPerm extractEntry src/time/toTimeString.js
+784 silly gunzTarPerm extractEntry src/array/append.js
+785 silly gunzTarPerm extractEntry src/array/join.js
+786 silly gunzTarPerm extractEntry src/array/last.js
+787 silly gunzTarPerm extractEntry src/array/lastIndexOf.js
+788 silly gunzTarPerm extractEntry src/array/invoke.js
+789 silly gunzTarPerm extractEntry src/array/max.js
+790 silly gunzTarPerm extractEntry src/array/min.js
+791 silly gunzTarPerm extractEntry src/array/pick.js
+792 silly gunzTarPerm extractEntry src/array/pluck.js
+793 silly gunzTarPerm extractEntry src/array/range.js
+794 silly gunzTarPerm extractEntry src/array/intersection.js
+795 silly gunzTarPerm extractEntry src/array/reduce.js
+796 silly gunzTarPerm extractEntry src/array/insert.js
+797 silly gunzTarPerm extractEntry src/array/reduceRight.js
+798 silly gunzTarPerm extractEntry src/array/indexOf.js
+799 silly gunzTarPerm extractEntry src/array/reject.js
+800 silly gunzTarPerm extractEntry src/array/groupBy.js
+801 silly gunzTarPerm extractEntry src/array/remove.js
+802 silly gunzTarPerm extractEntry src/array/forEach.js
+803 silly gunzTarPerm extractEntry src/array/removeAll.js
+804 silly gunzTarPerm extractEntry src/array/flatten.js
+805 silly gunzTarPerm extractEntry src/array/reverse.js
+806 silly gunzTarPerm extractEntry src/array/findLastIndex.js
+807 silly gunzTarPerm extractEntry src/array/shuffle.js
+808 silly gunzTarPerm extractEntry src/array/findLast.js
+809 silly gunzTarPerm extractEntry src/array/slice.js
+810 silly gunzTarPerm extractEntry src/array/findIndex.js
+811 silly gunzTarPerm extractEntry src/array/some.js
+812 silly gunzTarPerm extractEntry src/array/find.js
+813 silly gunzTarPerm extractEntry src/array/sort.js
+814 silly gunzTarPerm extractEntry src/array/filter.js
+815 silly gunzTarPerm extractEntry src/array/sortBy.js
+816 silly gunzTarPerm extractEntry src/array/every.js
+817 silly gunzTarPerm extractEntry src/array/split.js
+818 silly gunzTarPerm extractEntry src/array/equals.js
+819 silly gunzTarPerm extractEntry src/array/take.js
+820 silly gunzTarPerm extractEntry src/array/difference.js
+821 silly gunzTarPerm extractEntry src/array/toLookup.js
+822 silly gunzTarPerm extractEntry src/array/contains.js
+823 silly gunzTarPerm extractEntry src/array/union.js
+824 silly gunzTarPerm extractEntry src/array/compact.js
+825 silly gunzTarPerm extractEntry src/array/unique.js
+826 silly gunzTarPerm extractEntry src/array/combine.js
+827 silly gunzTarPerm extractEntry src/array/xor.js
+828 silly gunzTarPerm extractEntry src/array/collect.js
+829 silly gunzTarPerm extractEntry src/array/zip.js
+830 silly gunzTarPerm extractEntry src/array/map.js
+831 silly gunzTarPerm extractEntry string/WHITE_SPACES.js
+832 silly gunzTarPerm extractEntry string/normalizeLineBreaks.js
+833 silly gunzTarPerm extractEntry string/pascalCase.js
+834 silly gunzTarPerm extractEntry string/properCase.js
+835 silly gunzTarPerm extractEntry string/removeNonASCII.js
+836 silly gunzTarPerm extractEntry string/makePath.js
+837 silly gunzTarPerm extractEntry string/repeat.js
+838 silly gunzTarPerm extractEntry string/replace.js
+839 silly gunzTarPerm extractEntry string/replaceAccents.js
+840 silly gunzTarPerm extractEntry string/rpad.js
+841 silly gunzTarPerm extractEntry string/rtrim.js
+842 silly gunzTarPerm extractEntry string/ltrim.js
+843 silly gunzTarPerm extractEntry string/sentenceCase.js
+844 silly gunzTarPerm extractEntry string/lpad.js
+845 silly gunzTarPerm extractEntry string/slugify.js
+846 silly gunzTarPerm extractEntry string/lowerCase.js
+847 silly gunzTarPerm extractEntry string/startsWith.js
+848 silly gunzTarPerm extractEntry string/interpolate.js
+849 silly gunzTarPerm extractEntry string/stripHtmlTags.js
+850 silly gunzTarPerm extractEntry string/insert.js
+851 silly gunzTarPerm extractEntry string/trim.js
+852 silly gunzTarPerm extractEntry string/hyphenate.js
+853 silly gunzTarPerm extractEntry string/truncate.js
+854 silly gunzTarPerm extractEntry string/escapeUnicode.js
+855 silly gunzTarPerm extractEntry string/typecast.js
+856 silly gunzTarPerm extractEntry string/escapeRegExp.js
+857 silly gunzTarPerm extractEntry string/unCamelCase.js
+858 silly gunzTarPerm extractEntry string/escapeHtml.js
+859 silly gunzTarPerm extractEntry string/underscore.js
+860 silly gunzTarPerm extractEntry string/endsWith.js
+861 silly gunzTarPerm extractEntry string/unescapeHtml.js
+862 silly gunzTarPerm extractEntry string/crop.js
+863 silly gunzTarPerm extractEntry string/unescapeUnicode.js
+864 silly gunzTarPerm extractEntry string/contains.js
+865 silly gunzTarPerm extractEntry string/unhyphenate.js
+866 silly gunzTarPerm extractEntry string/camelCase.js
+867 silly gunzTarPerm extractEntry string/upperCase.js
+868 silly gunzTarPerm extractEntry string/removeNonWord.js
+869 silly gunzTarPerm extractEntry .jshintrc
+870 silly gunzTarPerm extractEntry .editorconfig
+871 verbose write writing to /Users/markdo/Desktop/Projects/node_modules/grunt-bake/node_modules/mout/package.json
+872 info preinstall mout@0.11.1
+873 verbose readDependencies loading dependencies from /Users/markdo/Desktop/Projects/node_modules/grunt-bake/node_modules/mout/package.json
+874 verbose readDependencies loading dependencies from /Users/markdo/Desktop/Projects/node_modules/grunt-bake/node_modules/mout/package.json
+875 silly install resolved []
+876 verbose about to build /Users/markdo/Desktop/Projects/node_modules/grunt-bake/node_modules/mout
+877 info build /Users/markdo/Desktop/Projects/node_modules/grunt-bake/node_modules/mout
+878 info linkStuff mout@0.11.1
+879 silly linkStuff mout@0.11.1 has /Users/markdo/Desktop/Projects/node_modules/grunt-bake/node_modules as its parent node_modules
+880 verbose linkBins mout@0.11.1
+881 verbose linkMans mout@0.11.1
+882 verbose rebuildBundles mout@0.11.1
+883 info install mout@0.11.1
+884 info postinstall mout@0.11.1
+885 verbose unlock done using /Users/markdo/.npm/_locks/mout-93fdd364d3eab2f5.lock for /Users/markdo/Desktop/Projects/node_modules/grunt-bake/node_modules/mout
+886 verbose about to build /Users/markdo/Desktop/Projects/node_modules/grunt-bake
+887 info build /Users/markdo/Desktop/Projects/node_modules/grunt-bake
+888 info linkStuff grunt-bake@1.7.2
+889 silly linkStuff grunt-bake@1.7.2 has /Users/markdo/Desktop/Projects/node_modules as its parent node_modules
+890 verbose linkBins grunt-bake@1.7.2
+891 verbose linkMans grunt-bake@1.7.2
+892 verbose rebuildBundles grunt-bake@1.7.2
+893 verbose rebuildBundles [ 'mout' ]
+894 info install grunt-bake@1.7.2
+895 info postinstall grunt-bake@1.7.2
+896 verbose readDependencies loading dependencies from /Users/markdo/Desktop/Projects/package.json
+897 verbose targetResolver reading package data from /Users/markdo/Desktop/Projects/node_modules/grunt-bake/package.json
+898 verbose targetResolver reading package data from /Users/markdo/Desktop/Projects/node_modules/gulp/package.json
+899 verbose targetResolver reading package data from /Users/markdo/Desktop/Projects/node_modules/gulp-nunjucks-render/package.json
+900 verbose targetResolver reading package data from /Users/markdo/Desktop/Projects/node_modules/handlebars/package.json
+901 verbose targetResolver reading package data from /Users/markdo/Desktop/Projects/node_modules/json-diff/package.json
+902 verbose targetResolver reading package data from /Users/markdo/Desktop/Projects/node_modules/jsondiffpatch/package.json
+903 verbose targetResolver reading package data from /Users/markdo/Desktop/Projects/node_modules/.bin/handlebars/package.json
+904 verbose targetResolver reading package data from /Users/markdo/Desktop/Projects/node_modules/.bin/json-diff/package.json
+905 verbose targetResolver reading package data from /Users/markdo/Desktop/Projects/node_modules/.bin/jsondiffpatch/package.json
+906 silly cache add args [ 'grunt@>=0.4.0', null ]
+907 verbose cache add spec grunt@>=0.4.0
+908 silly cache add parsed spec { raw: 'grunt@>=0.4.0',
+908 silly cache add   scope: null,
+908 silly cache add   name: 'grunt',
+908 silly cache add   rawSpec: '>=0.4.0',
+908 silly cache add   spec: '>=0.4.0',
+908 silly cache add   type: 'range' }
+909 silly addNamed grunt@>=0.4.0
+910 verbose addNamed ">=0.4.0" is a valid semver range for grunt
+911 silly addNameRange { name: 'grunt', range: '>=0.4.0', hasData: false }
+912 silly mapToRegistry name grunt
+913 silly mapToRegistry using default registry
+914 silly mapToRegistry registry https://registry.npmjs.org/
+915 silly mapToRegistry uri https://registry.npmjs.org/grunt
+916 verbose addNameRange registry:https://registry.npmjs.org/grunt not in flight; fetching
+917 verbose request uri https://registry.npmjs.org/grunt
+918 verbose request no auth needed
+919 info attempt registry request try #1 at 14:44:49
+920 verbose etag "DJXYUPDCMD3UOM4MZEK8FCIMH"
+921 http request GET https://registry.npmjs.org/grunt
+922 http 200 https://registry.npmjs.org/grunt
+923 silly get cb [ 200,
+923 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+923 silly get     etag: '"ECA90YDBLSEMSYL4NLY6V6W9Z"',
+923 silly get     'content-type': 'application/json',
+923 silly get     'cache-control': 'max-age=300',
+923 silly get     'content-length': '99412',
+923 silly get     'accept-ranges': 'bytes',
+923 silly get     date: 'Thu, 05 May 2016 04:44:49 GMT',
+923 silly get     via: '1.1 varnish',
+923 silly get     age: '227',
+923 silly get     connection: 'keep-alive',
+923 silly get     'x-served-by': 'cache-syd1620-SYD',
+923 silly get     'x-cache': 'HIT',
+923 silly get     'x-cache-hits': '23',
+923 silly get     'x-timer': 'S1462423489.760451,VS0,VE0',
+923 silly get     vary: 'Accept-Encoding' } ]
+924 verbose get saving grunt to /Users/markdo/.npm/registry.npmjs.org/grunt/.cache.json
+925 silly addNameRange number 2 { name: 'grunt', range: '>=0.4.0', hasData: true }
+926 silly addNameRange versions [ 'grunt',
+926 silly addNameRange   [ '0.1.0',
+926 silly addNameRange     '0.1.1',
+926 silly addNameRange     '0.1.2',
+926 silly addNameRange     '0.2.0',
+926 silly addNameRange     '0.2.1',
+926 silly addNameRange     '0.2.2',
+926 silly addNameRange     '0.2.3',
+926 silly addNameRange     '0.2.4',
+926 silly addNameRange     '0.2.5',
+926 silly addNameRange     '0.2.6',
+926 silly addNameRange     '0.2.7',
+926 silly addNameRange     '0.2.8',
+926 silly addNameRange     '0.2.9',
+926 silly addNameRange     '0.2.10',
+926 silly addNameRange     '0.2.11',
+926 silly addNameRange     '0.2.12',
+926 silly addNameRange     '0.2.13',
+926 silly addNameRange     '0.2.14',
+926 silly addNameRange     '0.2.15',
+926 silly addNameRange     '0.3.0',
+926 silly addNameRange     '0.3.1',
+926 silly addNameRange     '0.3.2',
+926 silly addNameRange     '0.3.3',
+926 silly addNameRange     '0.3.4',
+926 silly addNameRange     '0.3.5',
+926 silly addNameRange     '0.3.6',
+926 silly addNameRange     '0.3.7',
+926 silly addNameRange     '0.3.8',
+926 silly addNameRange     '0.3.9',
+926 silly addNameRange     '0.3.10',
+926 silly addNameRange     '0.3.11',
+926 silly addNameRange     '0.3.12',
+926 silly addNameRange     '0.3.13',
+926 silly addNameRange     '0.3.14',
+926 silly addNameRange     '0.3.15',
+926 silly addNameRange     '0.3.16',
+926 silly addNameRange     '0.3.17',
+926 silly addNameRange     '0.4.0',
+926 silly addNameRange     '0.4.1',
+926 silly addNameRange     '0.4.2',
+926 silly addNameRange     '0.4.3',
+926 silly addNameRange     '0.4.4',
+926 silly addNameRange     '0.4.5',
+926 silly addNameRange     '1.0.0-rc1',
+926 silly addNameRange     '1.0.0',
+926 silly addNameRange     '1.0.1',
+926 silly addNameRange     '0.3.13-a',
+926 silly addNameRange     '0.4.0-a',
+926 silly addNameRange     '0.4.0-rc1',
+926 silly addNameRange     '0.4.0-rc2',
+926 silly addNameRange     '0.4.0-rc3',
+926 silly addNameRange     '0.4.0-rc4',
+926 silly addNameRange     '0.4.0-rc5',
+926 silly addNameRange     '0.4.0-rc6',
+926 silly addNameRange     '0.4.0-rc7',
+926 silly addNameRange     '0.4.0-rc8' ] ]
+927 silly addNamed grunt@1.0.1
+928 verbose addNamed "1.0.1" is a plain semver version for grunt
+929 silly mapToRegistry name grunt
+930 silly mapToRegistry using default registry
+931 silly mapToRegistry registry https://registry.npmjs.org/
+932 silly mapToRegistry uri https://registry.npmjs.org/grunt
+933 verbose addRemoteTarball https://registry.npmjs.org/grunt/-/grunt-1.0.1.tgz not in flight; adding
+934 verbose addRemoteTarball [ 'https://registry.npmjs.org/grunt/-/grunt-1.0.1.tgz',
+934 verbose addRemoteTarball   'e8778764e944b18f32bb0f10b9078475c9dfb56b' ]
+935 info retry fetch attempt 1 at 14:44:49
+936 info attempt registry request try #1 at 14:44:49
+937 http fetch GET https://registry.npmjs.org/grunt/-/grunt-1.0.1.tgz
+938 http fetch 200 https://registry.npmjs.org/grunt/-/grunt-1.0.1.tgz
+939 silly fetchAndShaCheck shasum e8778764e944b18f32bb0f10b9078475c9dfb56b
+940 verbose addTmpTarball /var/folders/b1/ymp4xcl12vd8l_h061smnlkc0000gp/T/npm-75238-816b5ee4/registry.npmjs.org/grunt/-/grunt-1.0.1.tgz not in flight; adding
+941 verbose addTmpTarball already have metadata; skipping unpack for grunt@1.0.1
+942 silly cache afterAdd grunt@1.0.1
+943 verbose afterAdd /Users/markdo/.npm/grunt/1.0.1/package/package.json not in flight; writing
+944 verbose afterAdd /Users/markdo/.npm/grunt/1.0.1/package/package.json written
+945 silly install resolved [ { name: 'grunt',
+945 silly install resolved     description: 'The JavaScript Task Runner',
+945 silly install resolved     version: '1.0.1',
+945 silly install resolved     author:
+945 silly install resolved      { name: 'Grunt Development Team',
+945 silly install resolved        url: 'http://gruntjs.com/development-team' },
+945 silly install resolved     homepage: 'http://gruntjs.com/',
+945 silly install resolved     repository: { type: 'git', url: 'git+https://github.com/gruntjs/grunt.git' },
+945 silly install resolved     license: 'MIT',
+945 silly install resolved     engines: { node: '>=0.10.0' },
+945 silly install resolved     scripts: { test: 'grunt test', 'test-tap': 'grunt test:tap' },
+945 silly install resolved     main: 'lib/grunt',
+945 silly install resolved     bin: { grunt: 'bin/grunt' },
+945 silly install resolved     keywords:
+945 silly install resolved      [ 'task',
+945 silly install resolved        'async',
+945 silly install resolved        'cli',
+945 silly install resolved        'minify',
+945 silly install resolved        'uglify',
+945 silly install resolved        'build',
+945 silly install resolved        'lodash',
+945 silly install resolved        'unit',
+945 silly install resolved        'test',
+945 silly install resolved        'qunit',
+945 silly install resolved        'nodeunit',
+945 silly install resolved        'server',
+945 silly install resolved        'init',
+945 silly install resolved        'scaffold',
+945 silly install resolved        'make',
+945 silly install resolved        'jake',
+945 silly install resolved        'tool' ],
+945 silly install resolved     dependencies:
+945 silly install resolved      { 'coffee-script': '~1.10.0',
+945 silly install resolved        dateformat: '~1.0.12',
+945 silly install resolved        eventemitter2: '~0.4.13',
+945 silly install resolved        exit: '~0.1.1',
+945 silly install resolved        'findup-sync': '~0.3.0',
+945 silly install resolved        glob: '~7.0.0',
+945 silly install resolved        'grunt-cli': '~1.2.0',
+945 silly install resolved        'grunt-known-options': '~1.1.0',
+945 silly install resolved        'grunt-legacy-log': '~1.0.0',
+945 silly install resolved        'grunt-legacy-util': '~1.0.0',
+945 silly install resolved        'iconv-lite': '~0.4.13',
+945 silly install resolved        'js-yaml': '~3.5.2',
+945 silly install resolved        minimatch: '~3.0.0',
+945 silly install resolved        nopt: '~3.0.6',
+945 silly install resolved        'path-is-absolute': '~1.0.0',
+945 silly install resolved        rimraf: '~2.2.8' },
+945 silly install resolved     devDependencies:
+945 silly install resolved      { difflet: '~0.2.3',
+945 silly install resolved        'grunt-contrib-jshint': '~1.0.0',
+945 silly install resolved        'grunt-contrib-nodeunit': '~0.4.1',
+945 silly install resolved        'grunt-contrib-watch': '~1.0.0',
+945 silly install resolved        'grunt-jscs': '~2.8.0',
+945 silly install resolved        semver: '2.1.0',
+945 silly install resolved        shelljs: '~0.5.3',
+945 silly install resolved        temporary: '~0.0.4',
+945 silly install resolved        through2: '~2.0.0' },
+945 silly install resolved     files: [ 'lib', 'bin' ],
+945 silly install resolved     contributors: [ [Object], [Object], [Object], [Object], [Object] ],
+945 silly install resolved     gitHead: '8ada4948b69c6ec9b1e956b5e6b2e6814fa054ca',
+945 silly install resolved     bugs: { url: 'https://github.com/gruntjs/grunt/issues' },
+945 silly install resolved     _id: 'grunt@1.0.1',
+945 silly install resolved     _shasum: 'e8778764e944b18f32bb0f10b9078475c9dfb56b',
+945 silly install resolved     _from: 'grunt@>=0.4.0',
+945 silly install resolved     _npmVersion: '2.15.2',
+945 silly install resolved     _nodeVersion: '4.4.1',
+945 silly install resolved     _npmUser: { name: 'shama', email: 'kyle@dontkry.com' },
+945 silly install resolved     maintainers: [ [Object], [Object], [Object], [Object] ],
+945 silly install resolved     dist:
+945 silly install resolved      { shasum: 'e8778764e944b18f32bb0f10b9078475c9dfb56b',
+945 silly install resolved        tarball: 'https://registry.npmjs.org/grunt/-/grunt-1.0.1.tgz' },
+945 silly install resolved     _npmOperationalInternal:
+945 silly install resolved      { host: 'packages-12-west.internal.npmjs.com',
+945 silly install resolved        tmp: 'tmp/grunt-1.0.1.tgz_1459880209209_0.8634267684537917' },
+945 silly install resolved     directories: {},
+945 silly install resolved     _resolved: 'https://registry.npmjs.org/grunt/-/grunt-1.0.1.tgz' } ]
+946 info install grunt@1.0.1 into /Users/markdo/Desktop/Projects
+947 info installOne grunt@1.0.1
+948 verbose installOne of grunt to /Users/markdo/Desktop/Projects not in flight; installing
+949 verbose lock using /Users/markdo/.npm/_locks/grunt-ccb02db4c2f4ad2b.lock for /Users/markdo/Desktop/Projects/node_modules/grunt
+950 silly install write writing grunt 1.0.1 to /Users/markdo/Desktop/Projects/node_modules/grunt
+951 verbose unbuild node_modules/grunt
+952 silly gentlyRm /Users/markdo/Desktop/Projects/node_modules/grunt is being purged from base /Users/markdo/Desktop/Projects
+953 verbose gentlyRm don't care about contents; nuking /Users/markdo/Desktop/Projects/node_modules/grunt
+954 verbose tar unpack /Users/markdo/.npm/grunt/1.0.1/package.tgz
+955 verbose tar unpacking to /Users/markdo/Desktop/Projects/node_modules/grunt
+956 silly gentlyRm /Users/markdo/Desktop/Projects/node_modules/grunt is being purged
+957 verbose gentlyRm don't care about contents; nuking /Users/markdo/Desktop/Projects/node_modules/grunt
+958 silly gunzTarPerm modes [ '755', '644' ]
+959 silly gunzTarPerm extractEntry package.json
+960 silly gunzTarPerm extractEntry README.md
+961 silly gunzTarPerm extractEntry LICENSE
+962 silly gunzTarPerm extractEntry CHANGELOG
+963 silly gunzTarPerm extractEntry bin/grunt
+964 silly gunzTarPerm extractEntry lib/grunt.js
+965 silly gunzTarPerm extractEntry lib/grunt/cli.js
+966 silly gunzTarPerm extractEntry lib/grunt/config.js
+967 silly gunzTarPerm extractEntry lib/grunt/event.js
+968 silly gunzTarPerm extractEntry lib/grunt/fail.js
+969 silly gunzTarPerm extractEntry lib/grunt/file.js
+970 silly gunzTarPerm extractEntry lib/grunt/help.js
+971 silly gunzTarPerm extractEntry lib/grunt/option.js
+972 silly gunzTarPerm extractEntry lib/grunt/task.js
+973 silly gunzTarPerm extractEntry lib/grunt/template.js
+974 silly gunzTarPerm extractEntry lib/util/task.js
+975 verbose write writing to /Users/markdo/Desktop/Projects/node_modules/grunt/package.json
+976 info preinstall grunt@1.0.1
+977 verbose readDependencies loading dependencies from /Users/markdo/Desktop/Projects/node_modules/grunt/package.json
+978 silly prepareForInstallMany adding coffee-script@~1.10.0 from grunt dependencies
+979 silly prepareForInstallMany adding dateformat@~1.0.12 from grunt dependencies
+980 silly prepareForInstallMany adding eventemitter2@~0.4.13 from grunt dependencies
+981 silly prepareForInstallMany adding exit@~0.1.1 from grunt dependencies
+982 silly prepareForInstallMany adding findup-sync@~0.3.0 from grunt dependencies
+983 silly prepareForInstallMany adding glob@~7.0.0 from grunt dependencies
+984 silly prepareForInstallMany adding grunt-cli@~1.2.0 from grunt dependencies
+985 silly prepareForInstallMany adding grunt-known-options@~1.1.0 from grunt dependencies
+986 silly prepareForInstallMany adding grunt-legacy-log@~1.0.0 from grunt dependencies
+987 silly prepareForInstallMany adding grunt-legacy-util@~1.0.0 from grunt dependencies
+988 silly prepareForInstallMany adding iconv-lite@~0.4.13 from grunt dependencies
+989 silly prepareForInstallMany adding js-yaml@~3.5.2 from grunt dependencies
+990 silly prepareForInstallMany adding minimatch@~3.0.0 from grunt dependencies
+991 silly prepareForInstallMany adding nopt@~3.0.6 from grunt dependencies
+992 silly prepareForInstallMany adding path-is-absolute@~1.0.0 from grunt dependencies
+993 silly prepareForInstallMany adding rimraf@~2.2.8 from grunt dependencies
+994 verbose readDependencies loading dependencies from /Users/markdo/Desktop/Projects/node_modules/grunt/package.json
+995 silly cache add args [ 'coffee-script@~1.10.0', null ]
+996 verbose cache add spec coffee-script@~1.10.0
+997 silly cache add args [ 'dateformat@~1.0.12', null ]
+998 verbose cache add spec dateformat@~1.0.12
+999 silly cache add parsed spec { raw: 'coffee-script@~1.10.0',
+999 silly cache add   scope: null,
+999 silly cache add   name: 'coffee-script',
+999 silly cache add   rawSpec: '~1.10.0',
+999 silly cache add   spec: '>=1.10.0 <1.11.0',
+999 silly cache add   type: 'range' }
+1000 silly addNamed coffee-script@>=1.10.0 <1.11.0
+1001 verbose addNamed ">=1.10.0 <1.11.0" is a valid semver range for coffee-script
+1002 silly addNameRange { name: 'coffee-script',
+1002 silly addNameRange   range: '>=1.10.0 <1.11.0',
+1002 silly addNameRange   hasData: false }
+1003 silly mapToRegistry name coffee-script
+1004 silly mapToRegistry using default registry
+1005 silly mapToRegistry registry https://registry.npmjs.org/
+1006 silly mapToRegistry uri https://registry.npmjs.org/coffee-script
+1007 verbose addNameRange registry:https://registry.npmjs.org/coffee-script not in flight; fetching
+1008 silly cache add parsed spec { raw: 'dateformat@~1.0.12',
+1008 silly cache add   scope: null,
+1008 silly cache add   name: 'dateformat',
+1008 silly cache add   rawSpec: '~1.0.12',
+1008 silly cache add   spec: '>=1.0.12 <1.1.0',
+1008 silly cache add   type: 'range' }
+1009 silly addNamed dateformat@>=1.0.12 <1.1.0
+1010 verbose addNamed ">=1.0.12 <1.1.0" is a valid semver range for dateformat
+1011 silly addNameRange { name: 'dateformat', range: '>=1.0.12 <1.1.0', hasData: false }
+1012 silly mapToRegistry name dateformat
+1013 silly mapToRegistry using default registry
+1014 silly mapToRegistry registry https://registry.npmjs.org/
+1015 silly mapToRegistry uri https://registry.npmjs.org/dateformat
+1016 verbose addNameRange registry:https://registry.npmjs.org/dateformat not in flight; fetching
+1017 silly cache add args [ 'eventemitter2@~0.4.13', null ]
+1018 verbose cache add spec eventemitter2@~0.4.13
+1019 silly cache add parsed spec { raw: 'eventemitter2@~0.4.13',
+1019 silly cache add   scope: null,
+1019 silly cache add   name: 'eventemitter2',
+1019 silly cache add   rawSpec: '~0.4.13',
+1019 silly cache add   spec: '>=0.4.13 <0.5.0',
+1019 silly cache add   type: 'range' }
+1020 silly addNamed eventemitter2@>=0.4.13 <0.5.0
+1021 verbose addNamed ">=0.4.13 <0.5.0" is a valid semver range for eventemitter2
+1022 silly addNameRange { name: 'eventemitter2',
+1022 silly addNameRange   range: '>=0.4.13 <0.5.0',
+1022 silly addNameRange   hasData: false }
+1023 silly mapToRegistry name eventemitter2
+1024 silly mapToRegistry using default registry
+1025 silly mapToRegistry registry https://registry.npmjs.org/
+1026 silly mapToRegistry uri https://registry.npmjs.org/eventemitter2
+1027 verbose addNameRange registry:https://registry.npmjs.org/eventemitter2 not in flight; fetching
+1028 silly cache add args [ 'exit@~0.1.1', null ]
+1029 verbose cache add spec exit@~0.1.1
+1030 silly cache add parsed spec { raw: 'exit@~0.1.1',
+1030 silly cache add   scope: null,
+1030 silly cache add   name: 'exit',
+1030 silly cache add   rawSpec: '~0.1.1',
+1030 silly cache add   spec: '>=0.1.1 <0.2.0',
+1030 silly cache add   type: 'range' }
+1031 silly addNamed exit@>=0.1.1 <0.2.0
+1032 verbose addNamed ">=0.1.1 <0.2.0" is a valid semver range for exit
+1033 silly addNameRange { name: 'exit', range: '>=0.1.1 <0.2.0', hasData: false }
+1034 silly mapToRegistry name exit
+1035 silly mapToRegistry using default registry
+1036 silly mapToRegistry registry https://registry.npmjs.org/
+1037 silly mapToRegistry uri https://registry.npmjs.org/exit
+1038 verbose addNameRange registry:https://registry.npmjs.org/exit not in flight; fetching
+1039 silly cache add args [ 'findup-sync@~0.3.0', null ]
+1040 verbose cache add spec findup-sync@~0.3.0
+1041 silly cache add parsed spec { raw: 'findup-sync@~0.3.0',
+1041 silly cache add   scope: null,
+1041 silly cache add   name: 'findup-sync',
+1041 silly cache add   rawSpec: '~0.3.0',
+1041 silly cache add   spec: '>=0.3.0 <0.4.0',
+1041 silly cache add   type: 'range' }
+1042 silly addNamed findup-sync@>=0.3.0 <0.4.0
+1043 verbose addNamed ">=0.3.0 <0.4.0" is a valid semver range for findup-sync
+1044 silly addNameRange { name: 'findup-sync', range: '>=0.3.0 <0.4.0', hasData: false }
+1045 silly mapToRegistry name findup-sync
+1046 silly mapToRegistry using default registry
+1047 silly mapToRegistry registry https://registry.npmjs.org/
+1048 silly mapToRegistry uri https://registry.npmjs.org/findup-sync
+1049 verbose addNameRange registry:https://registry.npmjs.org/findup-sync not in flight; fetching
+1050 silly cache add args [ 'glob@~7.0.0', null ]
+1051 verbose cache add spec glob@~7.0.0
+1052 silly cache add parsed spec { raw: 'glob@~7.0.0',
+1052 silly cache add   scope: null,
+1052 silly cache add   name: 'glob',
+1052 silly cache add   rawSpec: '~7.0.0',
+1052 silly cache add   spec: '>=7.0.0 <7.1.0',
+1052 silly cache add   type: 'range' }
+1053 silly addNamed glob@>=7.0.0 <7.1.0
+1054 verbose addNamed ">=7.0.0 <7.1.0" is a valid semver range for glob
+1055 silly addNameRange { name: 'glob', range: '>=7.0.0 <7.1.0', hasData: false }
+1056 silly mapToRegistry name glob
+1057 silly mapToRegistry using default registry
+1058 silly mapToRegistry registry https://registry.npmjs.org/
+1059 silly mapToRegistry uri https://registry.npmjs.org/glob
+1060 verbose addNameRange registry:https://registry.npmjs.org/glob not in flight; fetching
+1061 silly cache add args [ 'grunt-cli@~1.2.0', null ]
+1062 verbose cache add spec grunt-cli@~1.2.0
+1063 silly cache add parsed spec { raw: 'grunt-cli@~1.2.0',
+1063 silly cache add   scope: null,
+1063 silly cache add   name: 'grunt-cli',
+1063 silly cache add   rawSpec: '~1.2.0',
+1063 silly cache add   spec: '>=1.2.0 <1.3.0',
+1063 silly cache add   type: 'range' }
+1064 silly addNamed grunt-cli@>=1.2.0 <1.3.0
+1065 verbose addNamed ">=1.2.0 <1.3.0" is a valid semver range for grunt-cli
+1066 silly addNameRange { name: 'grunt-cli', range: '>=1.2.0 <1.3.0', hasData: false }
+1067 silly mapToRegistry name grunt-cli
+1068 silly mapToRegistry using default registry
+1069 silly mapToRegistry registry https://registry.npmjs.org/
+1070 silly mapToRegistry uri https://registry.npmjs.org/grunt-cli
+1071 verbose addNameRange registry:https://registry.npmjs.org/grunt-cli not in flight; fetching
+1072 silly cache add args [ 'grunt-known-options@~1.1.0', null ]
+1073 verbose cache add spec grunt-known-options@~1.1.0
+1074 silly cache add parsed spec { raw: 'grunt-known-options@~1.1.0',
+1074 silly cache add   scope: null,
+1074 silly cache add   name: 'grunt-known-options',
+1074 silly cache add   rawSpec: '~1.1.0',
+1074 silly cache add   spec: '>=1.1.0 <1.2.0',
+1074 silly cache add   type: 'range' }
+1075 silly addNamed grunt-known-options@>=1.1.0 <1.2.0
+1076 verbose addNamed ">=1.1.0 <1.2.0" is a valid semver range for grunt-known-options
+1077 silly addNameRange { name: 'grunt-known-options',
+1077 silly addNameRange   range: '>=1.1.0 <1.2.0',
+1077 silly addNameRange   hasData: false }
+1078 silly mapToRegistry name grunt-known-options
+1079 silly mapToRegistry using default registry
+1080 silly mapToRegistry registry https://registry.npmjs.org/
+1081 silly mapToRegistry uri https://registry.npmjs.org/grunt-known-options
+1082 verbose addNameRange registry:https://registry.npmjs.org/grunt-known-options not in flight; fetching
+1083 silly cache add args [ 'grunt-legacy-log@~1.0.0', null ]
+1084 verbose cache add spec grunt-legacy-log@~1.0.0
+1085 silly cache add parsed spec { raw: 'grunt-legacy-log@~1.0.0',
+1085 silly cache add   scope: null,
+1085 silly cache add   name: 'grunt-legacy-log',
+1085 silly cache add   rawSpec: '~1.0.0',
+1085 silly cache add   spec: '>=1.0.0 <1.1.0',
+1085 silly cache add   type: 'range' }
+1086 silly addNamed grunt-legacy-log@>=1.0.0 <1.1.0
+1087 verbose addNamed ">=1.0.0 <1.1.0" is a valid semver range for grunt-legacy-log
+1088 silly addNameRange { name: 'grunt-legacy-log',
+1088 silly addNameRange   range: '>=1.0.0 <1.1.0',
+1088 silly addNameRange   hasData: false }
+1089 silly mapToRegistry name grunt-legacy-log
+1090 silly mapToRegistry using default registry
+1091 silly mapToRegistry registry https://registry.npmjs.org/
+1092 silly mapToRegistry uri https://registry.npmjs.org/grunt-legacy-log
+1093 verbose addNameRange registry:https://registry.npmjs.org/grunt-legacy-log not in flight; fetching
+1094 silly cache add args [ 'grunt-legacy-util@~1.0.0', null ]
+1095 verbose cache add spec grunt-legacy-util@~1.0.0
+1096 silly cache add parsed spec { raw: 'grunt-legacy-util@~1.0.0',
+1096 silly cache add   scope: null,
+1096 silly cache add   name: 'grunt-legacy-util',
+1096 silly cache add   rawSpec: '~1.0.0',
+1096 silly cache add   spec: '>=1.0.0 <1.1.0',
+1096 silly cache add   type: 'range' }
+1097 silly addNamed grunt-legacy-util@>=1.0.0 <1.1.0
+1098 verbose addNamed ">=1.0.0 <1.1.0" is a valid semver range for grunt-legacy-util
+1099 silly addNameRange { name: 'grunt-legacy-util',
+1099 silly addNameRange   range: '>=1.0.0 <1.1.0',
+1099 silly addNameRange   hasData: false }
+1100 silly mapToRegistry name grunt-legacy-util
+1101 silly mapToRegistry using default registry
+1102 silly mapToRegistry registry https://registry.npmjs.org/
+1103 silly mapToRegistry uri https://registry.npmjs.org/grunt-legacy-util
+1104 verbose addNameRange registry:https://registry.npmjs.org/grunt-legacy-util not in flight; fetching
+1105 silly cache add args [ 'iconv-lite@~0.4.13', null ]
+1106 verbose cache add spec iconv-lite@~0.4.13
+1107 silly cache add parsed spec { raw: 'iconv-lite@~0.4.13',
+1107 silly cache add   scope: null,
+1107 silly cache add   name: 'iconv-lite',
+1107 silly cache add   rawSpec: '~0.4.13',
+1107 silly cache add   spec: '>=0.4.13 <0.5.0',
+1107 silly cache add   type: 'range' }
+1108 silly addNamed iconv-lite@>=0.4.13 <0.5.0
+1109 verbose addNamed ">=0.4.13 <0.5.0" is a valid semver range for iconv-lite
+1110 silly addNameRange { name: 'iconv-lite', range: '>=0.4.13 <0.5.0', hasData: false }
+1111 silly mapToRegistry name iconv-lite
+1112 silly mapToRegistry using default registry
+1113 silly mapToRegistry registry https://registry.npmjs.org/
+1114 silly mapToRegistry uri https://registry.npmjs.org/iconv-lite
+1115 verbose addNameRange registry:https://registry.npmjs.org/iconv-lite not in flight; fetching
+1116 silly cache add args [ 'js-yaml@~3.5.2', null ]
+1117 verbose cache add spec js-yaml@~3.5.2
+1118 silly cache add parsed spec { raw: 'js-yaml@~3.5.2',
+1118 silly cache add   scope: null,
+1118 silly cache add   name: 'js-yaml',
+1118 silly cache add   rawSpec: '~3.5.2',
+1118 silly cache add   spec: '>=3.5.2 <3.6.0',
+1118 silly cache add   type: 'range' }
+1119 silly addNamed js-yaml@>=3.5.2 <3.6.0
+1120 verbose addNamed ">=3.5.2 <3.6.0" is a valid semver range for js-yaml
+1121 silly addNameRange { name: 'js-yaml', range: '>=3.5.2 <3.6.0', hasData: false }
+1122 silly mapToRegistry name js-yaml
+1123 silly mapToRegistry using default registry
+1124 silly mapToRegistry registry https://registry.npmjs.org/
+1125 silly mapToRegistry uri https://registry.npmjs.org/js-yaml
+1126 verbose addNameRange registry:https://registry.npmjs.org/js-yaml not in flight; fetching
+1127 silly cache add args [ 'minimatch@~3.0.0', null ]
+1128 verbose cache add spec minimatch@~3.0.0
+1129 silly cache add parsed spec { raw: 'minimatch@~3.0.0',
+1129 silly cache add   scope: null,
+1129 silly cache add   name: 'minimatch',
+1129 silly cache add   rawSpec: '~3.0.0',
+1129 silly cache add   spec: '>=3.0.0 <3.1.0',
+1129 silly cache add   type: 'range' }
+1130 silly addNamed minimatch@>=3.0.0 <3.1.0
+1131 verbose addNamed ">=3.0.0 <3.1.0" is a valid semver range for minimatch
+1132 silly addNameRange { name: 'minimatch', range: '>=3.0.0 <3.1.0', hasData: false }
+1133 silly mapToRegistry name minimatch
+1134 silly mapToRegistry using default registry
+1135 silly mapToRegistry registry https://registry.npmjs.org/
+1136 silly mapToRegistry uri https://registry.npmjs.org/minimatch
+1137 verbose addNameRange registry:https://registry.npmjs.org/minimatch not in flight; fetching
+1138 silly cache add args [ 'nopt@~3.0.6', null ]
+1139 verbose cache add spec nopt@~3.0.6
+1140 silly cache add parsed spec { raw: 'nopt@~3.0.6',
+1140 silly cache add   scope: null,
+1140 silly cache add   name: 'nopt',
+1140 silly cache add   rawSpec: '~3.0.6',
+1140 silly cache add   spec: '>=3.0.6 <3.1.0',
+1140 silly cache add   type: 'range' }
+1141 silly addNamed nopt@>=3.0.6 <3.1.0
+1142 verbose addNamed ">=3.0.6 <3.1.0" is a valid semver range for nopt
+1143 silly addNameRange { name: 'nopt', range: '>=3.0.6 <3.1.0', hasData: false }
+1144 silly mapToRegistry name nopt
+1145 silly mapToRegistry using default registry
+1146 silly mapToRegistry registry https://registry.npmjs.org/
+1147 silly mapToRegistry uri https://registry.npmjs.org/nopt
+1148 verbose addNameRange registry:https://registry.npmjs.org/nopt not in flight; fetching
+1149 silly cache add args [ 'path-is-absolute@~1.0.0', null ]
+1150 verbose cache add spec path-is-absolute@~1.0.0
+1151 silly cache add parsed spec { raw: 'path-is-absolute@~1.0.0',
+1151 silly cache add   scope: null,
+1151 silly cache add   name: 'path-is-absolute',
+1151 silly cache add   rawSpec: '~1.0.0',
+1151 silly cache add   spec: '>=1.0.0 <1.1.0',
+1151 silly cache add   type: 'range' }
+1152 silly addNamed path-is-absolute@>=1.0.0 <1.1.0
+1153 verbose addNamed ">=1.0.0 <1.1.0" is a valid semver range for path-is-absolute
+1154 silly addNameRange { name: 'path-is-absolute',
+1154 silly addNameRange   range: '>=1.0.0 <1.1.0',
+1154 silly addNameRange   hasData: false }
+1155 silly mapToRegistry name path-is-absolute
+1156 silly mapToRegistry using default registry
+1157 silly mapToRegistry registry https://registry.npmjs.org/
+1158 silly mapToRegistry uri https://registry.npmjs.org/path-is-absolute
+1159 verbose addNameRange registry:https://registry.npmjs.org/path-is-absolute not in flight; fetching
+1160 silly cache add args [ 'rimraf@~2.2.8', null ]
+1161 verbose cache add spec rimraf@~2.2.8
+1162 silly cache add parsed spec { raw: 'rimraf@~2.2.8',
+1162 silly cache add   scope: null,
+1162 silly cache add   name: 'rimraf',
+1162 silly cache add   rawSpec: '~2.2.8',
+1162 silly cache add   spec: '>=2.2.8 <2.3.0',
+1162 silly cache add   type: 'range' }
+1163 silly addNamed rimraf@>=2.2.8 <2.3.0
+1164 verbose addNamed ">=2.2.8 <2.3.0" is a valid semver range for rimraf
+1165 silly addNameRange { name: 'rimraf', range: '>=2.2.8 <2.3.0', hasData: false }
+1166 silly mapToRegistry name rimraf
+1167 silly mapToRegistry using default registry
+1168 silly mapToRegistry registry https://registry.npmjs.org/
+1169 silly mapToRegistry uri https://registry.npmjs.org/rimraf
+1170 verbose addNameRange registry:https://registry.npmjs.org/rimraf not in flight; fetching
+1171 verbose request uri https://registry.npmjs.org/grunt-known-options
+1172 verbose request no auth needed
+1173 info attempt registry request try #1 at 14:44:50
+1174 http request GET https://registry.npmjs.org/grunt-known-options
+1175 verbose request uri https://registry.npmjs.org/dateformat
+1176 verbose request no auth needed
+1177 info attempt registry request try #1 at 14:44:50
+1178 verbose etag "C9XBBHI4W46ATES5CP1SCW9V9"
+1179 http request GET https://registry.npmjs.org/dateformat
+1180 verbose request uri https://registry.npmjs.org/findup-sync
+1181 verbose request no auth needed
+1182 info attempt registry request try #1 at 14:44:50
+1183 verbose etag "4T2YM1183BMIEH25O8P2RBD4U"
+1184 http request GET https://registry.npmjs.org/findup-sync
+1185 verbose request uri https://registry.npmjs.org/exit
+1186 verbose request no auth needed
+1187 info attempt registry request try #1 at 14:44:50
+1188 verbose etag "4XONAOEJRJ8BY2QSXHVBYCYQC"
+1189 http request GET https://registry.npmjs.org/exit
+1190 verbose request uri https://registry.npmjs.org/eventemitter2
+1191 verbose request no auth needed
+1192 info attempt registry request try #1 at 14:44:50
+1193 verbose etag "E516A2ZEXUAZ7Z78UP5227W2S"
+1194 http request GET https://registry.npmjs.org/eventemitter2
+1195 verbose request uri https://registry.npmjs.org/grunt-cli
+1196 verbose request no auth needed
+1197 info attempt registry request try #1 at 14:44:50
+1198 verbose etag "3SKZORTYNW8YEPOTXB5BNCS0N"
+1199 http request GET https://registry.npmjs.org/grunt-cli
+1200 verbose request uri https://registry.npmjs.org/coffee-script
+1201 verbose request no auth needed
+1202 info attempt registry request try #1 at 14:44:50
+1203 verbose etag "B3LP8GKS78ETOBOOGSTJC2A6D"
+1204 http request GET https://registry.npmjs.org/coffee-script
+1205 verbose request uri https://registry.npmjs.org/grunt-legacy-util
+1206 verbose request no auth needed
+1207 info attempt registry request try #1 at 14:44:50
+1208 verbose etag "937M3ZH1Z0OA0IWSDR7Y8V1TP"
+1209 http request GET https://registry.npmjs.org/grunt-legacy-util
+1210 verbose request uri https://registry.npmjs.org/minimatch
+1211 verbose request no auth needed
+1212 info attempt registry request try #1 at 14:44:50
+1213 verbose etag "9842TJ5AM2N22TN2QRRRNRJEV"
+1214 http request GET https://registry.npmjs.org/minimatch
+1215 verbose request uri https://registry.npmjs.org/grunt-legacy-log
+1216 verbose request no auth needed
+1217 info attempt registry request try #1 at 14:44:50
+1218 verbose etag "BW8R33IX38J1Q09EPN87BQNU5"
+1219 http request GET https://registry.npmjs.org/grunt-legacy-log
+1220 verbose request uri https://registry.npmjs.org/iconv-lite
+1221 verbose request no auth needed
+1222 info attempt registry request try #1 at 14:44:50
+1223 verbose etag "6FZK5MJUJHTB59CX84ABPYN9U"
+1224 http request GET https://registry.npmjs.org/iconv-lite
+1225 verbose request uri https://registry.npmjs.org/glob
+1226 verbose request no auth needed
+1227 info attempt registry request try #1 at 14:44:50
+1228 verbose etag "L8UY1GFQTZGM9BJ8FRYWFLID"
+1229 http request GET https://registry.npmjs.org/glob
+1230 verbose request uri https://registry.npmjs.org/path-is-absolute
+1231 verbose request no auth needed
+1232 info attempt registry request try #1 at 14:44:50
+1233 verbose etag "BN5VZYARJTFIZINEV94ZMOHSE"
+1234 http request GET https://registry.npmjs.org/path-is-absolute
+1235 verbose request uri https://registry.npmjs.org/js-yaml
+1236 verbose request no auth needed
+1237 info attempt registry request try #1 at 14:44:50
+1238 verbose etag "EDHWCQBZVRT67BQ30FXDNAKCE"
+1239 http request GET https://registry.npmjs.org/js-yaml
+1240 verbose request uri https://registry.npmjs.org/nopt
+1241 verbose request no auth needed
+1242 info attempt registry request try #1 at 14:44:50
+1243 verbose etag "EOZTX9OIF152XUTZOK5DSHSTH"
+1244 http request GET https://registry.npmjs.org/nopt
+1245 verbose request uri https://registry.npmjs.org/rimraf
+1246 verbose request no auth needed
+1247 info attempt registry request try #1 at 14:44:50
+1248 verbose etag "BZQJQ6ZMWE92JU53L2RI9KDK9"
+1249 http request GET https://registry.npmjs.org/rimraf
+1250 info retry will retry, error on last attempt: Error: read ETIMEDOUT
+1251 info attempt registry request try #2 at 14:45:23
+1252 http request GET https://registry.npmjs.org/grunt-known-options
+1253 info retry will retry, error on last attempt: Error: connect ETIMEDOUT
+1254 info retry will retry, error on last attempt: Error: connect ETIMEDOUT
+1255 info retry will retry, error on last attempt: Error: connect ETIMEDOUT
+1256 info retry will retry, error on last attempt: Error: connect ETIMEDOUT
+1257 info retry will retry, error on last attempt: Error: connect ETIMEDOUT
+1258 info retry will retry, error on last attempt: Error: connect ETIMEDOUT
+1259 info retry will retry, error on last attempt: Error: connect ETIMEDOUT
+1260 info retry will retry, error on last attempt: Error: connect ETIMEDOUT
+1261 info retry will retry, error on last attempt: Error: connect ETIMEDOUT
+1262 info retry will retry, error on last attempt: Error: connect ETIMEDOUT
+1263 info retry will retry, error on last attempt: Error: connect ETIMEDOUT
+1264 info retry will retry, error on last attempt: Error: connect ETIMEDOUT
+1265 info retry will retry, error on last attempt: Error: connect ETIMEDOUT
+1266 info retry will retry, error on last attempt: Error: connect ETIMEDOUT
+1267 info retry will retry, error on last attempt: Error: connect ETIMEDOUT
+1268 info attempt registry request try #2 at 14:46:15
+1269 verbose etag "E516A2ZEXUAZ7Z78UP5227W2S"
+1270 http request GET https://registry.npmjs.org/eventemitter2
+1271 info attempt registry request try #2 at 14:46:15
+1272 verbose etag "4XONAOEJRJ8BY2QSXHVBYCYQC"
+1273 http request GET https://registry.npmjs.org/exit
+1274 info attempt registry request try #2 at 14:46:15
+1275 verbose etag "4T2YM1183BMIEH25O8P2RBD4U"
+1276 http request GET https://registry.npmjs.org/findup-sync
+1277 info attempt registry request try #2 at 14:46:15
+1278 verbose etag "C9XBBHI4W46ATES5CP1SCW9V9"
+1279 http request GET https://registry.npmjs.org/dateformat
+1280 info attempt registry request try #2 at 14:46:15
+1281 verbose etag "3SKZORTYNW8YEPOTXB5BNCS0N"
+1282 http request GET https://registry.npmjs.org/grunt-cli
+1283 info attempt registry request try #2 at 14:46:15
+1284 verbose etag "L8UY1GFQTZGM9BJ8FRYWFLID"
+1285 http request GET https://registry.npmjs.org/glob
+1286 info attempt registry request try #2 at 14:46:15
+1287 verbose etag "6FZK5MJUJHTB59CX84ABPYN9U"
+1288 http request GET https://registry.npmjs.org/iconv-lite
+1289 info attempt registry request try #2 at 14:46:15
+1290 verbose etag "BW8R33IX38J1Q09EPN87BQNU5"
+1291 http request GET https://registry.npmjs.org/grunt-legacy-log
+1292 info attempt registry request try #2 at 14:46:15
+1293 verbose etag "9842TJ5AM2N22TN2QRRRNRJEV"
+1294 http request GET https://registry.npmjs.org/minimatch
+1295 info attempt registry request try #2 at 14:46:15
+1296 verbose etag "937M3ZH1Z0OA0IWSDR7Y8V1TP"
+1297 http request GET https://registry.npmjs.org/grunt-legacy-util
+1298 info attempt registry request try #2 at 14:46:15
+1299 verbose etag "B3LP8GKS78ETOBOOGSTJC2A6D"
+1300 http request GET https://registry.npmjs.org/coffee-script
+1301 info attempt registry request try #2 at 14:46:15
+1302 verbose etag "BN5VZYARJTFIZINEV94ZMOHSE"
+1303 http request GET https://registry.npmjs.org/path-is-absolute
+1304 info attempt registry request try #2 at 14:46:15
+1305 verbose etag "EDHWCQBZVRT67BQ30FXDNAKCE"
+1306 http request GET https://registry.npmjs.org/js-yaml
+1307 info attempt registry request try #2 at 14:46:15
+1308 verbose etag "EOZTX9OIF152XUTZOK5DSHSTH"
+1309 http request GET https://registry.npmjs.org/nopt
+1310 info attempt registry request try #2 at 14:46:15
+1311 verbose etag "BZQJQ6ZMWE92JU53L2RI9KDK9"
+1312 http request GET https://registry.npmjs.org/rimraf
+1313 info retry will retry, error on last attempt: Error: connect ETIMEDOUT
+1314 info retry will retry, error on last attempt: Error: connect ETIMEDOUT
+1315 info retry will retry, error on last attempt: Error: connect ETIMEDOUT
+1316 info retry will retry, error on last attempt: Error: connect ETIMEDOUT
+1317 info retry will retry, error on last attempt: Error: connect ETIMEDOUT
+1318 info retry will retry, error on last attempt: Error: connect ETIMEDOUT
+1319 info retry will retry, error on last attempt: Error: connect ETIMEDOUT
+1320 info retry will retry, error on last attempt: Error: connect ETIMEDOUT
+1321 info retry will retry, error on last attempt: Error: connect ETIMEDOUT
+1322 info retry will retry, error on last attempt: Error: connect ETIMEDOUT
+1323 info retry will retry, error on last attempt: Error: connect ETIMEDOUT
+1324 info retry will retry, error on last attempt: Error: connect ETIMEDOUT
+1325 info retry will retry, error on last attempt: Error: connect ETIMEDOUT
+1326 info retry will retry, error on last attempt: Error: connect ETIMEDOUT
+1327 info retry will retry, error on last attempt: Error: connect ETIMEDOUT
+1328 info retry will retry, error on last attempt: Error: connect ETIMEDOUT
+1329 info attempt registry request try #3 at 14:47:38
+1330 http request GET https://registry.npmjs.org/grunt-known-options
+1331 info attempt registry request try #3 at 14:48:30
+1332 verbose etag "3SKZORTYNW8YEPOTXB5BNCS0N"
+1333 http request GET https://registry.npmjs.org/grunt-cli
+1334 info attempt registry request try #3 at 14:48:30
+1335 verbose etag "C9XBBHI4W46ATES5CP1SCW9V9"
+1336 http request GET https://registry.npmjs.org/dateformat
+1337 info attempt registry request try #3 at 14:48:30
+1338 verbose etag "4T2YM1183BMIEH25O8P2RBD4U"
+1339 http request GET https://registry.npmjs.org/findup-sync
+1340 info attempt registry request try #3 at 14:48:30
+1341 verbose etag "4XONAOEJRJ8BY2QSXHVBYCYQC"
+1342 http request GET https://registry.npmjs.org/exit
+1343 info attempt registry request try #3 at 14:48:30
+1344 verbose etag "E516A2ZEXUAZ7Z78UP5227W2S"
+1345 http request GET https://registry.npmjs.org/eventemitter2
+1346 info attempt registry request try #3 at 14:48:30
+1347 verbose etag "B3LP8GKS78ETOBOOGSTJC2A6D"
+1348 http request GET https://registry.npmjs.org/coffee-script
+1349 info attempt registry request try #3 at 14:48:30
+1350 verbose etag "937M3ZH1Z0OA0IWSDR7Y8V1TP"
+1351 http request GET https://registry.npmjs.org/grunt-legacy-util
+1352 info attempt registry request try #3 at 14:48:30
+1353 verbose etag "9842TJ5AM2N22TN2QRRRNRJEV"
+1354 http request GET https://registry.npmjs.org/minimatch
+1355 info attempt registry request try #3 at 14:48:30
+1356 verbose etag "BW8R33IX38J1Q09EPN87BQNU5"
+1357 http request GET https://registry.npmjs.org/grunt-legacy-log
+1358 info attempt registry request try #3 at 14:48:30
+1359 verbose etag "6FZK5MJUJHTB59CX84ABPYN9U"
+1360 http request GET https://registry.npmjs.org/iconv-lite
+1361 info attempt registry request try #3 at 14:48:30
+1362 verbose etag "L8UY1GFQTZGM9BJ8FRYWFLID"
+1363 http request GET https://registry.npmjs.org/glob
+1364 info attempt registry request try #3 at 14:48:30
+1365 verbose etag "EDHWCQBZVRT67BQ30FXDNAKCE"
+1366 http request GET https://registry.npmjs.org/js-yaml
+1367 info attempt registry request try #3 at 14:48:30
+1368 verbose etag "BN5VZYARJTFIZINEV94ZMOHSE"
+1369 http request GET https://registry.npmjs.org/path-is-absolute
+1370 info attempt registry request try #3 at 14:48:30
+1371 verbose etag "EOZTX9OIF152XUTZOK5DSHSTH"
+1372 http request GET https://registry.npmjs.org/nopt
+1373 info attempt registry request try #3 at 14:48:30
+1374 verbose etag "BZQJQ6ZMWE92JU53L2RI9KDK9"
+1375 http request GET https://registry.npmjs.org/rimraf
+1376 silly get cb [ 304, undefined ]
+1377 verbose etag https://registry.npmjs.org/eventemitter2 from cache
+1378 verbose get saving eventemitter2 to /Users/markdo/.npm/registry.npmjs.org/eventemitter2/.cache.json
+1379 silly get cb [ 304, undefined ]
+1380 verbose etag https://registry.npmjs.org/exit from cache
+1381 verbose get saving exit to /Users/markdo/.npm/registry.npmjs.org/exit/.cache.json
+1382 silly get cb [ 304, undefined ]
+1383 verbose etag https://registry.npmjs.org/findup-sync from cache
+1384 verbose get saving findup-sync to /Users/markdo/.npm/registry.npmjs.org/findup-sync/.cache.json
+1385 silly get cb [ 304, undefined ]
+1386 verbose etag https://registry.npmjs.org/dateformat from cache
+1387 verbose get saving dateformat to /Users/markdo/.npm/registry.npmjs.org/dateformat/.cache.json
+1388 silly get cb [ 304, undefined ]
+1389 verbose etag https://registry.npmjs.org/grunt-cli from cache
+1390 verbose get saving grunt-cli to /Users/markdo/.npm/registry.npmjs.org/grunt-cli/.cache.json
+1391 silly get cb [ 304, undefined ]
+1392 verbose etag https://registry.npmjs.org/js-yaml from cache
+1393 verbose get saving js-yaml to /Users/markdo/.npm/registry.npmjs.org/js-yaml/.cache.json
+1394 silly get cb [ 304, undefined ]
+1395 verbose etag https://registry.npmjs.org/glob from cache
+1396 verbose get saving glob to /Users/markdo/.npm/registry.npmjs.org/glob/.cache.json
+1397 silly get cb [ 304, undefined ]
+1398 verbose etag https://registry.npmjs.org/iconv-lite from cache
+1399 verbose get saving iconv-lite to /Users/markdo/.npm/registry.npmjs.org/iconv-lite/.cache.json
+1400 silly get cb [ 304, undefined ]
+1401 verbose etag https://registry.npmjs.org/grunt-legacy-log from cache
+1402 verbose get saving grunt-legacy-log to /Users/markdo/.npm/registry.npmjs.org/grunt-legacy-log/.cache.json
+1403 silly get cb [ 304, undefined ]
+1404 verbose etag https://registry.npmjs.org/minimatch from cache
+1405 verbose get saving minimatch to /Users/markdo/.npm/registry.npmjs.org/minimatch/.cache.json
+1406 silly get cb [ 304, undefined ]
+1407 verbose etag https://registry.npmjs.org/grunt-legacy-util from cache
+1408 verbose get saving grunt-legacy-util to /Users/markdo/.npm/registry.npmjs.org/grunt-legacy-util/.cache.json
+1409 silly get cb [ 304, undefined ]
+1410 verbose etag https://registry.npmjs.org/coffee-script from cache
+1411 verbose get saving coffee-script to /Users/markdo/.npm/registry.npmjs.org/coffee-script/.cache.json
+1412 silly addNameRange number 2 { name: 'exit', range: '>=0.1.1 <0.2.0', hasData: true }
+1413 silly addNameRange versions [ 'exit', [ '0.1.0', '0.1.1', '0.1.2' ] ]
+1414 silly addNamed exit@0.1.2
+1415 verbose addNamed "0.1.2" is a plain semver version for exit
+1416 silly get cb [ 304, undefined ]
+1417 verbose etag https://registry.npmjs.org/path-is-absolute from cache
+1418 verbose get saving path-is-absolute to /Users/markdo/.npm/registry.npmjs.org/path-is-absolute/.cache.json
+1419 silly addNameRange number 2 { name: 'eventemitter2',
+1419 silly addNameRange   range: '>=0.4.13 <0.5.0',
+1419 silly addNameRange   hasData: true }
+1420 silly addNameRange versions [ 'eventemitter2',
+1420 silly addNameRange   [ '0.0.1',
+1420 silly addNameRange     '0.1.0',
+1420 silly addNameRange     '0.1.1',
+1420 silly addNameRange     '0.1.3',
+1420 silly addNameRange     '0.2.5',
+1420 silly addNameRange     '0.2.6',
+1420 silly addNameRange     '0.2.7',
+1420 silly addNameRange     '0.3.5',
+1420 silly addNameRange     '0.3.6',
+1420 silly addNameRange     '0.3.7',
+1420 silly addNameRange     '0.4.0',
+1420 silly addNameRange     '0.4.1',
+1420 silly addNameRange     '0.4.3',
+1420 silly addNameRange     '0.4.6',
+1420 silly addNameRange     '0.4.7',
+1420 silly addNameRange     '0.4.8',
+1420 silly addNameRange     '0.4.9',
+1420 silly addNameRange     '0.4.10',
+1420 silly addNameRange     '0.4.11',
+1420 silly addNameRange     '0.4.12',
+1420 silly addNameRange     '0.4.13',
+1420 silly addNameRange     '0.4.14' ] ]
+1421 silly addNamed eventemitter2@0.4.14
+1422 verbose addNamed "0.4.14" is a plain semver version for eventemitter2
+1423 silly addNameRange number 2 { name: 'findup-sync', range: '>=0.3.0 <0.4.0', hasData: true }
+1424 silly addNameRange versions [ 'findup-sync',
+1424 silly addNameRange   [ '0.1.0', '0.1.1', '0.1.2', '0.1.3', '0.2.0', '0.2.1', '0.3.0' ] ]
+1425 silly addNamed findup-sync@0.3.0
+1426 verbose addNamed "0.3.0" is a plain semver version for findup-sync
+1427 silly addNameRange number 2 { name: 'dateformat', range: '>=1.0.12 <1.1.0', hasData: true }
+1428 silly addNameRange versions [ 'dateformat',
+1428 silly addNameRange   [ '0.9.0-1.2.3',
+1428 silly addNameRange     '1.0.0-1.2.3',
+1428 silly addNameRange     '1.0.1-1.2.3',
+1428 silly addNameRange     '1.0.2-1.2.3',
+1428 silly addNameRange     '1.0.3-1.2.3',
+1428 silly addNameRange     '1.0.4-1.2.3',
+1428 silly addNameRange     '1.0.5-1.2.3',
+1428 silly addNameRange     '1.0.6-1.2.3',
+1428 silly addNameRange     '1.0.7-1.2.3',
+1428 silly addNameRange     '1.0.8-1.2.3',
+1428 silly addNameRange     '1.0.8',
+1428 silly addNameRange     '1.0.9',
+1428 silly addNameRange     '1.0.10',
+1428 silly addNameRange     '1.0.11',
+1428 silly addNameRange     '1.0.12' ] ]
+1429 silly addNamed dateformat@1.0.12
+1430 verbose addNamed "1.0.12" is a plain semver version for dateformat
+1431 silly addNameRange number 2 { name: 'grunt-cli', range: '>=1.2.0 <1.3.0', hasData: true }
+1432 silly addNameRange versions [ 'grunt-cli',
+1432 silly addNameRange   [ '0.1.0',
+1432 silly addNameRange     '0.1.1',
+1432 silly addNameRange     '0.1.2',
+1432 silly addNameRange     '0.1.3',
+1432 silly addNameRange     '0.1.4',
+1432 silly addNameRange     '0.1.5',
+1432 silly addNameRange     '0.1.6',
+1432 silly addNameRange     '0.1.7',
+1432 silly addNameRange     '0.1.8',
+1432 silly addNameRange     '0.1.9',
+1432 silly addNameRange     '0.1.10',
+1432 silly addNameRange     '0.1.11',
+1432 silly addNameRange     '0.1.12',
+1432 silly addNameRange     '0.1.13' ] ]
+1433 silly cache afterAdd exit@0.1.2
+1434 verbose afterAdd /Users/markdo/.npm/exit/0.1.2/package/package.json not in flight; writing
+1435 silly addNameRange number 2 { name: 'js-yaml', range: '>=3.5.2 <3.6.0', hasData: true }
+1436 silly addNameRange versions [ 'js-yaml',
+1436 silly addNameRange   [ '0.2.0',
+1436 silly addNameRange     '0.2.1',
+1436 silly addNameRange     '0.2.2',
+1436 silly addNameRange     '0.3.0',
+1436 silly addNameRange     '0.3.1',
+1436 silly addNameRange     '0.3.2',
+1436 silly addNameRange     '0.3.3',
+1436 silly addNameRange     '0.3.4',
+1436 silly addNameRange     '0.3.5',
+1436 silly addNameRange     '0.3.6',
+1436 silly addNameRange     '0.3.7',
+1436 silly addNameRange     '1.0.0',
+1436 silly addNameRange     '1.0.1',
+1436 silly addNameRange     '1.0.2',
+1436 silly addNameRange     '1.0.3',
+1436 silly addNameRange     '2.0.0',
+1436 silly addNameRange     '2.0.1',
+1436 silly addNameRange     '2.0.2',
+1436 silly addNameRange     '2.0.3',
+1436 silly addNameRange     '2.0.4',
+1436 silly addNameRange     '2.0.5',
+1436 silly addNameRange     '2.1.0',
+1436 silly addNameRange     '2.1.1',
+1436 silly addNameRange     '2.1.2',
+1436 silly addNameRange     '2.1.3',
+1436 silly addNameRange     '3.0.0',
+1436 silly addNameRange     '3.0.1',
+1436 silly addNameRange     '3.0.2',
+1436 silly addNameRange     '3.1.0',
+1436 silly addNameRange     '3.2.1',
+1436 silly addNameRange     '3.2.2',
+1436 silly addNameRange     '3.2.3',
+1436 silly addNameRange     '3.2.4',
+1436 silly addNameRange     '3.2.5',
+1436 silly addNameRange     '3.2.6',
+1436 silly addNameRange     '3.2.7',
+1436 silly addNameRange     '3.3.0',
+1436 silly addNameRange     '3.3.1',
+1436 silly addNameRange     '3.4.0',
+1436 silly addNameRange     '3.4.1',
+1436 silly addNameRange     '3.4.2',
+1436 silly addNameRange     '3.4.3',
+1436 silly addNameRange     '3.4.4',
+1436 silly addNameRange     '3.4.5',
+1436 silly addNameRange     '3.4.6',
+1436 silly addNameRange     '3.5.0',
+1436 silly addNameRange     '3.5.1',
+1436 silly addNameRange     '3.5.2',
+1436 silly addNameRange     '3.5.3' ] ]
+1437 silly addNamed js-yaml@3.5.3
+1438 verbose addNamed "3.5.3" is a plain semver version for js-yaml
+1439 silly addNameRange number 2 { name: 'iconv-lite', range: '>=0.4.13 <0.5.0', hasData: true }
+1440 silly addNameRange versions [ 'iconv-lite',
+1440 silly addNameRange   [ '0.1.0',
+1440 silly addNameRange     '0.1.1',
+1440 silly addNameRange     '0.1.2',
+1440 silly addNameRange     '0.1.3',
+1440 silly addNameRange     '0.1.4',
+1440 silly addNameRange     '0.2.0',
+1440 silly addNameRange     '0.2.1',
+1440 silly addNameRange     '0.2.3',
+1440 silly addNameRange     '0.2.4',
+1440 silly addNameRange     '0.2.5',
+1440 silly addNameRange     '0.2.6',
+1440 silly addNameRange     '0.2.7',
+1440 silly addNameRange     '0.2.8',
+1440 silly addNameRange     '0.2.9',
+1440 silly addNameRange     '0.2.10',
+1440 silly addNameRange     '0.2.11',
+1440 silly addNameRange     '0.4.0-pre',
+1440 silly addNameRange     '0.4.0-pre2',
+1440 silly addNameRange     '0.4.0-pre3',
+1440 silly addNameRange     '0.4.0',
+1440 silly addNameRange     '0.4.1',
+1440 silly addNameRange     '0.4.2',
+1440 silly addNameRange     '0.4.3',
+1440 silly addNameRange     '0.4.4',
+1440 silly addNameRange     '0.4.5',
+1440 silly addNameRange     '0.4.6',
+1440 silly addNameRange     '0.4.7',
+1440 silly addNameRange     '0.4.8',
+1440 silly addNameRange     '0.4.9',
+1440 silly addNameRange     '0.4.10',
+1440 silly addNameRange     '0.4.11',
+1440 silly addNameRange     '0.4.12',
+1440 silly addNameRange     '0.4.13' ] ]
+1441 silly addNamed iconv-lite@0.4.13
+1442 verbose addNamed "0.4.13" is a plain semver version for iconv-lite
+1443 silly addNameRange number 2 { name: 'grunt-legacy-log',
+1443 silly addNameRange   range: '>=1.0.0 <1.1.0',
+1443 silly addNameRange   hasData: true }
+1444 silly addNameRange versions [ 'grunt-legacy-log', [ '0.1.0', '0.1.1', '0.1.2' ] ]
+1445 silly addNameRange number 2 { name: 'glob', range: '>=7.0.0 <7.1.0', hasData: true }
+1446 silly addNameRange versions [ 'glob',
+1446 silly addNameRange   [ '1.1.0',
+1446 silly addNameRange     '2.0.9',
+1446 silly addNameRange     '2.0.8',
+1446 silly addNameRange     '2.0.7',
+1446 silly addNameRange     '2.1.0',
+1446 silly addNameRange     '3.0.0',
+1446 silly addNameRange     '3.0.1',
+1446 silly addNameRange     '3.1.0',
+1446 silly addNameRange     '3.1.1',
+1446 silly addNameRange     '3.1.2',
+1446 silly addNameRange     '3.1.3',
+1446 silly addNameRange     '3.1.4',
+1446 silly addNameRange     '3.1.5',
+1446 silly addNameRange     '3.1.6',
+1446 silly addNameRange     '3.1.7',
+1446 silly addNameRange     '3.1.9',
+1446 silly addNameRange     '3.1.10',
+1446 silly addNameRange     '3.1.11',
+1446 silly addNameRange     '3.1.12',
+1446 silly addNameRange     '3.1.13',
+1446 silly addNameRange     '3.1.14',
+1446 silly addNameRange     '3.1.15',
+1446 silly addNameRange     '3.1.16',
+1446 silly addNameRange     '3.1.17',
+1446 silly addNameRange     '3.1.18',
+1446 silly addNameRange     '3.1.19',
+1446 silly addNameRange     '3.1.20',
+1446 silly addNameRange     '3.1.21',
+1446 silly addNameRange     '3.2.0',
+1446 silly addNameRange     '3.2.1',
+1446 silly addNameRange     '3.2.3',
+1446 silly addNameRange     '3.2.4',
+1446 silly addNameRange     '3.2.5',
+1446 silly addNameRange     '3.2.6',
+1446 silly addNameRange     '3.2.7',
+1446 silly addNameRange     '3.2.8',
+1446 silly addNameRange     '3.2.9',
+1446 silly addNameRange     '3.2.10',
+1446 silly addNameRange     '3.2.11',
+1446 silly addNameRange     '4.0.0',
+1446 silly addNameRange     '4.0.1',
+1446 silly addNameRange     '4.0.2',
+1446 silly addNameRange     '4.0.3',
+1446 silly addNameRange     '4.0.4',
+1446 silly addNameRange     '4.0.5',
+1446 silly addNameRange     '4.0.6',
+1446 silly addNameRange     '4.1.2-beta',
+1446 silly addNameRange     '4.1.2',
+1446 silly addNameRange     '4.1.3',
+1446 silly addNameRange     '4.1.4',
+1446 silly addNameRange     '4.1.5',
+1446 silly addNameRange     '4.1.6',
+1446 silly addNameRange     '4.2.0',
+1446 silly addNameRange     '4.2.1',
+1446 silly addNameRange     '4.2.2',
+1446 silly addNameRange     '4.3.0',
+1446 silly addNameRange     '4.3.1',
+1446 silly addNameRange     '4.3.2',
+1446 silly addNameRange     '4.3.3',
+1446 silly addNameRange     '4.3.4',
+1446 silly addNameRange     '4.3.5',
+1446 silly addNameRange     '4.4.0',
+1446 silly addNameRange     '4.4.2',
+1446 silly addNameRange     '4.5.0',
+1446 silly addNameRange     '5.0.0',
+1446 silly addNameRange     '4.5.1',
+1446 silly addNameRange     '5.0.1',
+1446 silly addNameRange     '4.5.2',
+1446 silly addNameRange     '5.0.2',
+1446 silly addNameRange     '4.5.3',
+1446 silly addNameRange     '5.0.3',
+1446 silly addNameRange     '5.0.4',
+1446 silly addNameRange     '5.0.5',
+1446 silly addNameRange     '5.0.6',
+1446 silly addNameRange     '5.0.7',
+1446 silly addNameRange     '5.0.9',
+1446 silly addNameRange     '5.0.10',
+1446 silly addNameRange     '5.0.11',
+1446 silly addNameRange     '5.0.12',
+1446 silly addNameRange     '5.0.13',
+1446 silly addNameRange     '5.0.14',
+1446 silly addNameRange     '5.0.15',
+1446 silly addNameRange     '6.0.1',
+1446 silly addNameRange     '6.0.2',
+1446 silly addNameRange     '6.0.3',
+1446 silly addNameRange     '6.0.4',
+1446 silly addNameRange     '7.0.0' ] ]
+1447 silly addNamed glob@7.0.0
+1448 verbose addNamed "7.0.0" is a plain semver version for glob
+1449 silly addNameRange number 2 { name: 'coffee-script',
+1449 silly addNameRange   range: '>=1.10.0 <1.11.0',
+1449 silly addNameRange   hasData: true }
+1450 silly addNameRange versions [ 'coffee-script',
+1450 silly addNameRange   [ '0.7.0',
+1450 silly addNameRange     '0.7.1',
+1450 silly addNameRange     '0.7.2',
+1450 silly addNameRange     '0.9.0',
+1450 silly addNameRange     '0.9.1',
+1450 silly addNameRange     '0.9.2',
+1450 silly addNameRange     '0.9.3',
+1450 silly addNameRange     '0.9.4',
+1450 silly addNameRange     '0.9.5',
+1450 silly addNameRange     '0.9.6',
+1450 silly addNameRange     '1.0.0',
+1450 silly addNameRange     '1.0.1',
+1450 silly addNameRange     '1.1.0',
+1450 silly addNameRange     '1.1.1',
+1450 silly addNameRange     '1.1.2',
+1450 silly addNameRange     '1.1.3',
+1450 silly addNameRange     '1.2.0',
+1450 silly addNameRange     '1.3.0',
+1450 silly addNameRange     '1.3.1',
+1450 silly addNameRange     '1.3.2',
+1450 silly addNameRange     '1.3.3',
+1450 silly addNameRange     '1.4.0',
+1450 silly addNameRange     '1.5.0',
+1450 silly addNameRange     '1.6.0',
+1450 silly addNameRange     '1.6.1',
+1450 silly addNameRange     '1.6.2',
+1450 silly addNameRange     '1.6.3',
+1450 silly addNameRange     '1.7.0',
+1450 silly addNameRange     '1.7.1',
+1450 silly addNameRange     '1.8.0',
+1450 silly addNameRange     '1.9.0',
+1450 silly addNameRange     '1.9.1',
+1450 silly addNameRange     '1.9.2',
+1450 silly addNameRange     '1.9.3',
+1450 silly addNameRange     '1.10.0' ] ]
+1451 silly addNamed coffee-script@1.10.0
+1452 verbose addNamed "1.10.0" is a plain semver version for coffee-script
+1453 silly addNameRange number 2 { name: 'grunt-legacy-util',
+1453 silly addNameRange   range: '>=1.0.0 <1.1.0',
+1453 silly addNameRange   hasData: true }
+1454 silly addNameRange versions [ 'grunt-legacy-util', [ '0.1.0', '0.1.1', '0.1.2', '0.2.0' ] ]
+1455 silly addNameRange number 2 { name: 'minimatch', range: '>=3.0.0 <3.1.0', hasData: true }
+1456 silly addNameRange versions [ 'minimatch',
+1456 silly addNameRange   [ '0.0.1',
+1456 silly addNameRange     '0.0.2',
+1456 silly addNameRange     '0.0.4',
+1456 silly addNameRange     '0.0.5',
+1456 silly addNameRange     '0.1.1',
+1456 silly addNameRange     '0.1.2',
+1456 silly addNameRange     '0.1.3',
+1456 silly addNameRange     '0.1.4',
+1456 silly addNameRange     '0.1.5',
+1456 silly addNameRange     '0.2.0',
+1456 silly addNameRange     '0.2.2',
+1456 silly addNameRange     '0.2.3',
+1456 silly addNameRange     '0.2.4',
+1456 silly addNameRange     '0.2.5',
+1456 silly addNameRange     '0.2.6',
+1456 silly addNameRange     '0.2.7',
+1456 silly addNameRange     '0.2.8',
+1456 silly addNameRange     '0.2.9',
+1456 silly addNameRange     '0.2.10',
+1456 silly addNameRange     '0.2.11',
+1456 silly addNameRange     '0.2.12',
+1456 silly addNameRange     '0.2.13',
+1456 silly addNameRange     '0.2.14',
+1456 silly addNameRange     '0.3.0',
+1456 silly addNameRange     '0.4.0',
+1456 silly addNameRange     '1.0.0',
+1456 silly addNameRange     '2.0.0',
+1456 silly addNameRange     '2.0.1',
+1456 silly addNameRange     '2.0.2',
+1456 silly addNameRange     '2.0.3',
+1456 silly addNameRange     '2.0.4',
+1456 silly addNameRange     '2.0.5',
+1456 silly addNameRange     '2.0.6',
+1456 silly addNameRange     '2.0.7',
+1456 silly addNameRange     '2.0.8',
+1456 silly addNameRange     '2.0.9',
+1456 silly addNameRange     '2.0.10',
+1456 silly addNameRange     '3.0.0' ] ]
+1457 silly addNamed minimatch@3.0.0
+1458 verbose addNamed "3.0.0" is a plain semver version for minimatch
+1459 silly mapToRegistry name js-yaml
+1460 silly mapToRegistry using default registry
+1461 silly mapToRegistry registry https://registry.npmjs.org/
+1462 silly mapToRegistry uri https://registry.npmjs.org/js-yaml
+1463 verbose addRemoteTarball https://registry.npmjs.org/js-yaml/-/js-yaml-3.5.3.tgz not in flight; adding
+1464 verbose addRemoteTarball [ 'https://registry.npmjs.org/js-yaml/-/js-yaml-3.5.3.tgz',
+1464 verbose addRemoteTarball   'e9ee6082b0657770e4346dfaf2a58c5992251f76' ]
+1465 silly cache afterAdd findup-sync@0.3.0
+1466 verbose afterAdd /Users/markdo/.npm/findup-sync/0.3.0/package/package.json not in flight; writing
+1467 silly cache afterAdd eventemitter2@0.4.14
+1468 verbose afterAdd /Users/markdo/.npm/eventemitter2/0.4.14/package/package.json not in flight; writing
+1469 silly addNameRange number 2 { name: 'path-is-absolute',
+1469 silly addNameRange   range: '>=1.0.0 <1.1.0',
+1469 silly addNameRange   hasData: true }
+1470 silly addNameRange versions [ 'path-is-absolute', [ '1.0.0' ] ]
+1471 silly addNamed path-is-absolute@1.0.0
+1472 verbose addNamed "1.0.0" is a plain semver version for path-is-absolute
+1473 silly get cb [ 304, undefined ]
+1474 verbose etag https://registry.npmjs.org/nopt from cache
+1475 verbose get saving nopt to /Users/markdo/.npm/registry.npmjs.org/nopt/.cache.json
+1476 silly cache afterAdd dateformat@1.0.12
+1477 verbose afterAdd /Users/markdo/.npm/dateformat/1.0.12/package/package.json not in flight; writing
+1478 silly get cb [ 304, undefined ]
+1479 verbose etag https://registry.npmjs.org/rimraf from cache
+1480 verbose get saving rimraf to /Users/markdo/.npm/registry.npmjs.org/rimraf/.cache.json
+1481 info retry fetch attempt 1 at 14:49:46
+1482 info attempt registry request try #1 at 14:49:46
+1483 http fetch GET https://registry.npmjs.org/js-yaml/-/js-yaml-3.5.3.tgz
+1484 verbose afterAdd /Users/markdo/.npm/exit/0.1.2/package/package.json written
+1485 silly cache afterAdd glob@7.0.0
+1486 verbose afterAdd /Users/markdo/.npm/glob/7.0.0/package/package.json not in flight; writing
+1487 silly cache afterAdd iconv-lite@0.4.13
+1488 verbose afterAdd /Users/markdo/.npm/iconv-lite/0.4.13/package/package.json not in flight; writing
+1489 silly cache afterAdd minimatch@3.0.0
+1490 verbose afterAdd /Users/markdo/.npm/minimatch/3.0.0/package/package.json not in flight; writing
+1491 verbose afterAdd /Users/markdo/.npm/findup-sync/0.3.0/package/package.json written
+1492 silly cache afterAdd coffee-script@1.10.0
+1493 verbose afterAdd /Users/markdo/.npm/coffee-script/1.10.0/package/package.json not in flight; writing
+1494 verbose afterAdd /Users/markdo/.npm/eventemitter2/0.4.14/package/package.json written
+1495 verbose afterAdd /Users/markdo/.npm/dateformat/1.0.12/package/package.json written
+1496 silly cache afterAdd path-is-absolute@1.0.0
+1497 verbose afterAdd /Users/markdo/.npm/path-is-absolute/1.0.0/package/package.json not in flight; writing
+1498 silly addNameRange number 2 { name: 'nopt', range: '>=3.0.6 <3.1.0', hasData: true }
+1499 silly addNameRange versions [ 'nopt',
+1499 silly addNameRange   [ '1.0.0',
+1499 silly addNameRange     '1.0.1',
+1499 silly addNameRange     '1.0.2',
+1499 silly addNameRange     '1.0.3',
+1499 silly addNameRange     '1.0.4',
+1499 silly addNameRange     '1.0.5',
+1499 silly addNameRange     '1.0.6',
+1499 silly addNameRange     '1.0.7',
+1499 silly addNameRange     '1.0.8',
+1499 silly addNameRange     '1.0.9',
+1499 silly addNameRange     '1.0.10',
+1499 silly addNameRange     '2.0.0',
+1499 silly addNameRange     '2.1.0',
+1499 silly addNameRange     '2.1.1',
+1499 silly addNameRange     '2.1.2',
+1499 silly addNameRange     '2.2.0',
+1499 silly addNameRange     '2.2.1',
+1499 silly addNameRange     '3.0.0',
+1499 silly addNameRange     '3.0.1',
+1499 silly addNameRange     '3.0.2',
+1499 silly addNameRange     '3.0.3',
+1499 silly addNameRange     '3.0.4',
+1499 silly addNameRange     '3.0.5',
+1499 silly addNameRange     '3.0.6' ] ]
+1500 silly addNamed nopt@3.0.6
+1501 verbose addNamed "3.0.6" is a plain semver version for nopt
+1502 verbose afterAdd /Users/markdo/.npm/glob/7.0.0/package/package.json written
+1503 verbose afterAdd /Users/markdo/.npm/minimatch/3.0.0/package/package.json written
+1504 verbose afterAdd /Users/markdo/.npm/iconv-lite/0.4.13/package/package.json written
+1505 silly addNameRange number 2 { name: 'rimraf', range: '>=2.2.8 <2.3.0', hasData: true }
+1506 silly addNameRange versions [ 'rimraf',
+1506 silly addNameRange   [ '1.0.0',
+1506 silly addNameRange     '1.0.1',
+1506 silly addNameRange     '1.0.2',
+1506 silly addNameRange     '1.0.4',
+1506 silly addNameRange     '1.0.5',
+1506 silly addNameRange     '1.0.6',
+1506 silly addNameRange     '1.0.7',
+1506 silly addNameRange     '1.0.8',
+1506 silly addNameRange     '1.0.9',
+1506 silly addNameRange     '2.0.0',
+1506 silly addNameRange     '2.0.1',
+1506 silly addNameRange     '2.0.2',
+1506 silly addNameRange     '2.0.3',
+1506 silly addNameRange     '2.1.0',
+1506 silly addNameRange     '2.1.1',
+1506 silly addNameRange     '2.1.2',
+1506 silly addNameRange     '2.1.3',
+1506 silly addNameRange     '2.1.4',
+1506 silly addNameRange     '2.2.0',
+1506 silly addNameRange     '2.2.1',
+1506 silly addNameRange     '2.2.2',
+1506 silly addNameRange     '2.2.3',
+1506 silly addNameRange     '2.2.4',
+1506 silly addNameRange     '2.2.5',
+1506 silly addNameRange     '2.2.6',
+1506 silly addNameRange     '2.2.8',
+1506 silly addNameRange     '2.3.0',
+1506 silly addNameRange     '2.3.1',
+1506 silly addNameRange     '2.3.2',
+1506 silly addNameRange     '2.3.3',
+1506 silly addNameRange     '2.3.4',
+1506 silly addNameRange     '2.4.0',
+1506 silly addNameRange     '2.4.1',
+1506 silly addNameRange     '2.4.2',
+1506 silly addNameRange     '2.4.3',
+1506 silly addNameRange     '2.4.4',
+1506 silly addNameRange     '2.4.5',
+1506 silly addNameRange     '2.5.0',
+1506 silly addNameRange     '2.5.1',
+1506 silly addNameRange     '2.5.2' ] ]
+1507 silly addNamed rimraf@2.2.8
+1508 verbose addNamed "2.2.8" is a plain semver version for rimraf
+1509 verbose afterAdd /Users/markdo/.npm/coffee-script/1.10.0/package/package.json written
+1510 verbose afterAdd /Users/markdo/.npm/path-is-absolute/1.0.0/package/package.json written
+1511 silly cache afterAdd nopt@3.0.6
+1512 verbose afterAdd /Users/markdo/.npm/nopt/3.0.6/package/package.json not in flight; writing
+1513 silly cache afterAdd rimraf@2.2.8
+1514 verbose afterAdd /Users/markdo/.npm/rimraf/2.2.8/package/package.json not in flight; writing
+1515 verbose afterAdd /Users/markdo/.npm/nopt/3.0.6/package/package.json written
+1516 verbose afterAdd /Users/markdo/.npm/rimraf/2.2.8/package/package.json written
+1517 http fetch 200 https://registry.npmjs.org/js-yaml/-/js-yaml-3.5.3.tgz
+1518 silly fetchAndShaCheck shasum e9ee6082b0657770e4346dfaf2a58c5992251f76
+1519 verbose addTmpTarball /var/folders/b1/ymp4xcl12vd8l_h061smnlkc0000gp/T/npm-75238-816b5ee4/registry.npmjs.org/js-yaml/-/js-yaml-3.5.3.tgz not in flight; adding
+1520 verbose addTmpTarball already have metadata; skipping unpack for js-yaml@3.5.3
+1521 silly cache afterAdd js-yaml@3.5.3
+1522 verbose afterAdd /Users/markdo/.npm/js-yaml/3.5.3/package/package.json not in flight; writing
+1523 verbose afterAdd /Users/markdo/.npm/js-yaml/3.5.3/package/package.json written
+1524 verbose about to build /Users/markdo/Desktop/Projects/node_modules/grunt
+1525 verbose unlock done using /Users/markdo/.npm/_locks/grunt-ccb02db4c2f4ad2b.lock for /Users/markdo/Desktop/Projects/node_modules/grunt
+1526 verbose unlock done using /Users/markdo/.npm/_locks/grunt-bake-83b444ea1b74c7b3.lock for /Users/markdo/Desktop/Projects/node_modules/grunt-bake
+1527 verbose stack Error: connect ETIMEDOUT
+1527 verbose stack     at exports._errnoException (util.js:746:11)
+1527 verbose stack     at TCPConnectWrap.afterConnect [as oncomplete] (net.js:983:19)
+1528 verbose cwd /Users/markdo/Desktop/Projects/epic-digital
+1529 error Darwin 14.1.0
+1530 error argv "node" "/usr/local/bin/npm" "install" "grunt-bake" "--save-dev"
+1531 error node v0.12.0
+1532 error npm  v2.11.1
+1533 error code ETIMEDOUT
+1534 error errno ETIMEDOUT
+1535 error syscall connect
+1536 error network connect ETIMEDOUT
+1536 error network This is most likely not a problem with npm itself
+1536 error network and is related to network connectivity.
+1536 error network In most cases you are behind a proxy or have bad network settings.
+1536 error network
+1536 error network If you are behind a proxy, please make sure that the
+1536 error network 'proxy' config is set properly.  See: 'npm help config'
+1537 verbose exit [ 1, true ]
+1538 verbose unbuild node_modules/grunt
+1539 info preuninstall grunt@1.0.1
+1540 info uninstall grunt@1.0.1
+1541 verbose unbuild rmStuff grunt@1.0.1 from /Users/markdo/Desktop/Projects/node_modules
+1542 silly gentlyRm /Users/markdo/Desktop/Projects/node_modules/.bin/grunt is being gently removed
+1543 silly gentlyRm verifying /Users/markdo/Desktop/Projects is an npm working directory
+1544 silly gentlyRm containing path /Users/markdo/Desktop/Projects is under npm's control, in /Users/markdo/Desktop/Projects
+1545 silly gentlyRm deletion target /Users/markdo/Desktop/Projects/node_modules/.bin/grunt is under /Users/markdo/Desktop/Projects
+1546 verbose gentlyRm vacuuming from /Users/markdo/Desktop/Projects/node_modules/.bin/grunt up to /Users/markdo/Desktop/Projects
+1547 info postuninstall grunt@1.0.1
+1548 silly gentlyRm /Users/markdo/Desktop/Projects/node_modules/grunt is being purged from base /Users/markdo/Desktop/Projects
+1549 verbose gentlyRm don't care about contents; nuking /Users/markdo/Desktop/Projects/node_modules/grunt
+1550 silly vacuum-fs purging /Users/markdo/Desktop/Projects/node_modules/grunt
+1551 silly vacuum-fs quitting because other entries in /Users/markdo/Desktop/Projects/node_modules
+1552 verbose unbuild node_modules/grunt-bake
+1553 info preuninstall grunt-bake@1.7.2
+1554 info uninstall grunt-bake@1.7.2
+1555 verbose unbuild rmStuff grunt-bake@1.7.2 from /Users/markdo/Desktop/Projects/node_modules
+1556 info postuninstall grunt-bake@1.7.2
+1557 silly gentlyRm /Users/markdo/Desktop/Projects/node_modules/grunt-bake is being purged from base /Users/markdo/Desktop/Projects
+1558 verbose gentlyRm don't care about contents; nuking /Users/markdo/Desktop/Projects/node_modules/grunt-bake
+1559 silly vacuum-fs purging /Users/markdo/Desktop/Projects/node_modules/grunt-bake
+1560 silly vacuum-fs quitting because other entries in /Users/markdo/Desktop/Projects/node_modules
