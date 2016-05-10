@@ -9,6 +9,12 @@ jQuery(function($) {
         var spanText = $(this).children('a').text();
         $(this).find('a').attr('data-text', spanText);
     });
+
+    $('#menu #nav li a').each(function() {
+        if (this.href == window.location.href) {
+            $(this).children('span').addClass("active-tab");
+        }
+    });
     
     //Mobile menu
     $('.show-menu').on('click', function() {
