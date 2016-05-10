@@ -1927,7 +1927,7 @@ math, .show-menu, .slider-mobile-description, .page .slider-description span,
     .slider-mobile-description h2 { margin-bottom: 0; }
     .page .slider-mobile-description, .single .slider-mobile-description { display: none !important; }
     
-    .col { padding: 30px; }
+    .col { padding: 30px; width:100%;}
     
     #timeout, #slider-navi {
         top: 30px;
@@ -2142,7 +2142,7 @@ math, .show-menu, .slider-mobile-description, .page .slider-description span,
     #menu { height: 104px; }
     
     #menu #nav li {
-        font-size: 44px;
+        font-size: 35px;
         line-height: 34px;
     }
     
