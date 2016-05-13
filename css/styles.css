@@ -387,7 +387,7 @@ html[lang="en"] #menu:hover .slider-description span img {
     animation-delay: 6s; 
 }
 .cb-slideshow li:nth-child(3) span { 
-    background-image: url('https://epicdigital.atlassian.net/secure/attachment/15405/microsoft+band+and+app.jpg');
+    background-image: url('../images/microsoft-band-app.jpg');
     animation-delay: 12s; 
 }
 
@@ -409,10 +409,11 @@ html[lang="en"] #menu:hover .slider-description span img {
     animation-delay: 36s; 
 }
 
-.cb-slideshow li:nth-child(8) span { 
+/*.cb-slideshow li:nth-child(8) span { 
     background-image: url('../images/EPIC_AgedCare_184.jpg');
     animation-delay: 42s; 
 }
+*/
 .cb-slideshow li:nth-child(2) div { 
     animation-delay: 6s; 
 }
@@ -431,9 +432,9 @@ html[lang="en"] #menu:hover .slider-description span img {
 .cb-slideshow li:nth-child(7) div { 
     animation-delay: 36s; 
 }
-.cb-slideshow li:nth-child(8) div { 
+/*.cb-slideshow li:nth-child(8) div { 
     animation-delay: 42s; 
-}
+}*/
 
 @keyframes imageAnimation { 
     0% { opacity: 0; animation-timing-function: ease-in; }
@@ -962,6 +963,7 @@ math, .show-menu, .slider-mobile-description, .page .slider-description span,
     position: relative;
     z-index: 2;
     opacity: 0;
+    top:100px;
 }
 
 .work h2 {
@@ -975,6 +977,7 @@ math, .show-menu, .slider-mobile-description, .page .slider-description span,
     opacity: 0;
     margin: 20px 0 0 0;
     padding: 0;
+    top:94px;
     -webkit-transform: translateY(-20px);
     -moz-transform: translateY(-20px);
     transform: translateY(-20px);

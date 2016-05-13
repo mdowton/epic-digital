@@ -12,7 +12,7 @@ function myEl () {
 $( document ).ready(function() {
     	var divHeight = jQuery('#works').height();
         
-        jQuery('.page-cover').css('height', divHeight);
+        jQuery('.page-cover').css({'height' :divHeight, 'overflow' : 'scroll'});
         jQuery('.panel-left').css('height', divHeight);
 
         jQuery('body').on('click', '.member-image', function() {
@@ -26,17 +26,23 @@ $( document ).ready(function() {
         	jQuery('.member-image').each(function(){
         		jQuery(this).removeClass('active-member-photo');
         		if(href == '#markBio'){
-        			jQuery('#photo-mark').addClass("active-member-photo");
+        			jQuery('#photo-mark').addClass("active-member-photo")
+                    jQuery('.page-cover').css({'overflow' : 'hidden'});
         		} else if (href == '#emmaBio'){
         			jQuery('#photo-emma-cortson').addClass("active-member-photo");
+                    jQuery('.page-cover').css({'overflow' : 'hidden'});
         		} else if (href == '#trudyBio') {
         			jQuery('#photo-trudy').addClass("active-member-photo");
+                    jQuery('.page-cover').css({'overflow' : 'hidden'});
         		} else if (href == '#hanBio') {
         			jQuery('#photo-hanwen').addClass("active-member-photo");
+                    jQuery('.page-cover').css({'overflow' : 'hidden'});
         		} else if (href == '#jonoBio') {
         			jQuery('#photo-jono').addClass("active-member-photo");
+                    jQuery('.page-cover').css({'overflow' : 'hidden'});
         		} else if (href == '#cathieBio') {
         			jQuery('#photo-cathie').addClass("active-member-photo");
+                    jQuery('.page-cover').css({'overflow' : 'hidden'});
         		}
         	});	
         	
