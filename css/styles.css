@@ -284,7 +284,9 @@ html[lang="en"] #menu:hover .slider-description span img {
 
 #menu #nav li a:hover span { top: 100%; }
 
-
+.sub-menu li a:hover {
+  color: rgb(128, 214, 212);
+}
 .sub-menu li a {
   font-size: 13px !important;
   color: #222;
