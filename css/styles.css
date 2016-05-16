@@ -240,15 +240,15 @@ html[lang="en"] #menu:hover .slider-description span img {
     padding: 0;
     list-style: none;
     font-weight: 900;
-    font-size: 35px;
+    font-size: 28px;
     text-transform: uppercase;
-    line-height: 46px;
+    line-height: 30px;
 }
 
 #menu #nav li a {
     position: relative;
     overflow: hidden;
-    height: 42px;
+    height: 31px;
     text-decoration: none;
 }
 
@@ -2192,7 +2192,7 @@ math, .show-menu, .slider-mobile-description, .page .slider-description span,
     }
 
     .height-mobile {
-      height: 135px;
+      height: 95px;
       -webkit-transition: all .3s ease;
       -moz-transition: all .3s ease;
       -ms-transition: all .3s ease;
@@ -2203,8 +2203,8 @@ math, .show-menu, .slider-mobile-description, .page .slider-description span,
     #menu { height: 104px; }
     
     #menu #nav li {
-        font-size: 35px;
-        line-height: 34px;
+        font-size: 21px;
+        line-height: 23px;
     }
     
     #menu #nav li a { height: 32px; }
