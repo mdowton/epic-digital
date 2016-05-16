@@ -312,6 +312,24 @@ html[lang="en"] #menu:hover .slider-description span img {
   -ms-transition: all .3s ease;
   -o-transition: all .3s ease;
 }
+
+.height-mobile {
+  height: 325px;
+  -webkit-transition: all .3s ease;
+  -moz-transition: all .3s ease;
+  -ms-transition: all .3s ease;
+  -o-transition: all .3s ease;
+}
+
+.opened .sub-menu li {
+  font-size: 21px !important;
+  margin-left: 15px !important;
+}
+
+.opened .sub-menu li a{
+  font-size: 21px !important;
+}
+
 .hidden{
     display: none !important;
     visibility: hidden !important;
@@ -395,7 +413,8 @@ html[lang="en"] #menu:hover .slider-description span img {
     color: #fff;
     animation: titleAnimation 36s linear infinite 0s; 
 }
-.cb-slideshow li { text-decoration: none;}
+.cb-slideshow li { text-decoration: none; list-style: inherit; list-style-type: none;
+}
 .cb-slideshow li div h3 {   
     font-size: 26px;
     padding: 0;
@@ -417,25 +436,25 @@ html[lang="en"] #menu:hover .slider-description span img {
 }
 .cb-slideshow li:nth-child(2) span { 
     background-image: url('../images/microsoft-band-app.jpg');
-    animation-delay: 12s; 
+    animation-delay: 6s; 
 }
 
 .cb-slideshow li:nth-child(3) span { 
     background-image: url('../images/db_manage.png');
-    animation-delay: 18s; 
+    animation-delay: 12s; 
 }
 .cb-slideshow li:nth-child(4) span { 
     background-image: url('../images/Med_manage.jpg');
-    animation-delay: 24s; 
+    animation-delay: 18s; 
 }
 .cb-slideshow li:nth-child(5) span { 
     background-image: url('../images/falls_monitor.png');
-    animation-delay: 30s; 
+    animation-delay: 24s; 
 }
 
 .cb-slideshow li:nth-child(6) span { 
     background-image: url('../images/EPIC_AgedCare_168.jpg');
-    animation-delay: 36s; 
+    animation-delay: 30s; 
 }
 
 /*.cb-slideshow li:nth-child(8) span { 
@@ -458,9 +477,9 @@ html[lang="en"] #menu:hover .slider-description span img {
 .cb-slideshow li:nth-child(6) div { 
     animation-delay: 30s; 
 }
-.cb-slideshow li:nth-child(7) div { 
+/*.cb-slideshow li:nth-child(7) div { 
     animation-delay: 36s; 
-}
+}*/
 /*.cb-slideshow li:nth-child(8) div { 
     animation-delay: 42s; 
 }*/
@@ -1921,7 +1940,7 @@ math, .show-menu, .slider-mobile-description, .page .slider-description span,
     #menu.opened #navbar { display: block; }
     
     #menu #nav li {
-        font-size: 64pt;
+        font-size: 48pt;
         line-height: 67px;
     }
     
@@ -2168,6 +2187,14 @@ math, .show-menu, .slider-mobile-description, .page .slider-description span,
         float: none;
         width: 100%;
         padding: 0px;
+    }
+
+    .height-mobile {
+      height: 135px;
+      -webkit-transition: all .3s ease;
+      -moz-transition: all .3s ease;
+      -ms-transition: all .3s ease;
+      -o-transition: all .3s ease;
     }
     
     right-contact-info .contact-info:first-child { padding-bottom: 0; }

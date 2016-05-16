@@ -48,9 +48,20 @@ $( document ).ready(function() {
         	
         });
 
-        jQuery('.products-link').on('hover', function(){
-            jQuery(".sub-menu").addClass('height');
+        jQuery(".products-link").on({
+            mouseenter: function () {
+                jQuery(".sub-menu").addClass('height');
+            },
+            mouseleave: function () {
+               // jQuery(".sub-menu").toggleClass('height', 1000);
+            }
         });
+
+
+        // jQuery('.products-link').on('hover', function(){
+        //     console.log('comes on hover');
+        //     jQuery(".sub-menu").addClass('height');
+        // });
     
 });
 

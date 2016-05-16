@@ -26,6 +26,7 @@ jQuery(function($) {
             $('#menu').addClass('opened');
             $('#timeout').hide();
             $('.slider-mobile-description').css('z-index', '-1');
+            $('.sub-menu').addClass('height-mobile');
         }
     });
     
