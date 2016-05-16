@@ -284,6 +284,39 @@ html[lang="en"] #menu:hover .slider-description span img {
 
 #menu #nav li a:hover span { top: 100%; }
 
+
+.sub-menu li a {
+  font-size: 13px !important;
+  color: #222;
+}
+
+.sub-menu li{
+  font-size: 13px !important;
+  margin-left: 15px !important;
+}
+
+.sub-menu {
+  height: 0;
+  overflow: hidden;
+  margin: 0 !important;
+  -webkit-transition: all .3s ease;
+  -moz-transition: all .3s ease;
+  -ms-transition: all .3s ease;
+  -o-transition: all .3s ease;
+}
+
+.height {
+  height: 125px;
+  -webkit-transition: all .3s ease;
+  -moz-transition: all .3s ease;
+  -ms-transition: all .3s ease;
+  -o-transition: all .3s ease;
+}
+.hidden{
+    display: none !important;
+    visibility: hidden !important;
+}
+
 #slider-navi {
     position: absolute;
     right: 0px;
@@ -384,27 +417,23 @@ html[lang="en"] #menu:hover .slider-description span img {
 }
 .cb-slideshow li:nth-child(2) span { 
     background-image: url('../images/microsoft-band-app.jpg');
-    animation-delay: 6s; 
-}
-.cb-slideshow li:nth-child(3) span { 
-    background-image: url('../images/microsoft-band-app.jpg');
     animation-delay: 12s; 
 }
 
-.cb-slideshow li:nth-child(4) span { 
+.cb-slideshow li:nth-child(3) span { 
     background-image: url('../images/db_manage.png');
     animation-delay: 18s; 
 }
-.cb-slideshow li:nth-child(5) span { 
+.cb-slideshow li:nth-child(4) span { 
     background-image: url('../images/Med_manage.jpg');
     animation-delay: 24s; 
 }
-.cb-slideshow li:nth-child(6) span { 
+.cb-slideshow li:nth-child(5) span { 
     background-image: url('../images/falls_monitor.png');
     animation-delay: 30s; 
 }
 
-.cb-slideshow li:nth-child(7) span { 
+.cb-slideshow li:nth-child(6) span { 
     background-image: url('../images/EPIC_AgedCare_168.jpg');
     animation-delay: 36s; 
 }

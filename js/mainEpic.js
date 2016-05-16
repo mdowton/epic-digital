@@ -47,6 +47,11 @@ $( document ).ready(function() {
         	});	
         	
         });
+
+        jQuery('.products-link').on('hover', function(){
+            jQuery(".sub-menu").addClass('height');
+        });
+    
 });
 
 
