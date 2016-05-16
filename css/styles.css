@@ -380,10 +380,10 @@ html[lang="en"] #menu:hover .slider-description span img {
 }
 
 .cb-slideshow li:nth-child(1) span { 
-    background-image: url("https://epicdigital.atlassian.net/secure/attachment/15408/microsoft+band+sensor.jpg") 
+    background-image: url("../images/microsoft-band-sensor.jpg") 
 }
 .cb-slideshow li:nth-child(2) span { 
-    background-image: url('https://epicdigital.atlassian.net/secure/attachment/15406/microsoft+band+app.jpg');
+    background-image: url('../images/microsoft-band-app.jpg');
     animation-delay: 6s; 
 }
 .cb-slideshow li:nth-child(3) span { 
