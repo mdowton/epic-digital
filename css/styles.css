@@ -753,6 +753,9 @@ math, .show-menu, .slider-mobile-description, .page .slider-description span,
     height: 100%;
     overflow: auto;
 }
+.wrapper-team {
+  background: #f7f7f7;
+}
 
 .rsDefault .rsBullets {
     background: transparent;
@@ -1431,6 +1434,7 @@ math, .show-menu, .slider-mobile-description, .page .slider-description span,
 .page-cover { 
     position: absolute; 
     background: #000000; 
+    max-width: 500px !important;
 }
 
 .page-cover .cover {
